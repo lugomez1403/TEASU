@@ -1,6 +1,6 @@
-import { useRef } from "react";
-import { FaBars, FaTimes } from "react-icons/fa";
+import React, { useRef } from "react";
 import "../App.css";
+// import Quien from "../Views/quien";
 
 function Navbar() {
     const navRef = useRef();
@@ -12,12 +12,12 @@ function Navbar() {
     return (
         <header className="App">
             <nav ref={navRef} >
-                <a href="/#" className="quienes" >¿Quienes somos?</a>
+                <a href={"../Views/quien"} className="quienes" >¿Quienes somos?</a>
                 <a href="/#" className="servicios">Servicios</a>
-                <a href="/#" className="contactanos">Contactanos</a>
+                <a href="../Views/contact" className="contactanos">Contactanos</a>
             </nav>
             <button className="nav-btn" onClick={showNavbar}>
-                <FaBars />
+
             </button>
         </header>
     );
