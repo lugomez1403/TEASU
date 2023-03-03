@@ -6,19 +6,19 @@ import { BrowserRouter } from 'react-router-dom';
 
 function Quien() {
     return (
-        <div class="component-1">
-            <div class="group-132">
-                <div class="-qui-nes-somos-3">¿Quiénes somos?</div>
+        <div className="component-1">
+            <div className="group-132">
+                <div className="-qui-nes-somos-3">¿Quiénes somos?</div>
 
-                <div class="somos-una-empresa-dedicada------">
+                <div className="somos-una-empresa-dedicada------">
                     Somos una empresa dedicada .....
                 </div>
             </div>
 
-            <div class="rectangle-162"></div>
+            <div className="rectangle-162"></div>
 
             <img
-                class="whatsapp-image-2023-02-18-at-11-35-2"
+                className="whatsapp-image-2023-02-18-at-11-35-2"
                 src="whatsapp-image-2023-02-18-at-11-35-1.png"
             />
         </div>

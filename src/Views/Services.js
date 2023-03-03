@@ -6,59 +6,59 @@ import { BrowserRouter } from 'react-router-dom';
 
 function Services() {
     return (
-        <div class="component-2">
-            <div class="rectangle-14"></div>
+        <div className="component-2">
+            <div className="rectangle-14"></div>
 
-            <div class="rectangle-27"></div>
+            <div className="rectangle-27"></div>
 
-            <div class="nuestros-servicios">Nuestros servicios</div>
+            <div className="nuestros-servicios">Nuestros servicios</div>
 
-            <div class="group-17">
-                <div class="mecanica-de-suelos">Mecanica de suelos</div>
+            <div className="group-17">
+                <div className="mecanica-de-suelos">Mecanica de suelos</div>
 
-                <div class="rectangle-12"></div>
-
-            </div>
-
-            <div class="group-18">
-                <div class="tierras-fisicas">Tierras fisicas</div>
-
-                <div class="rectangle-17"></div>
+                <div className="rectangle-12"></div>
 
             </div>
 
-            <div class="group-19">
-                <div class="desasolve-de-pozos">Desasolve de pozos</div>
+            <div className="group-18">
+                <div className="tierras-fisicas">Tierras fisicas</div>
 
-                <div class="rectangle-172"></div>
-
-            </div>
-
-            <div class="group-20">
-                <div class="barrenos">Barrenos</div>
-
-                <div class="rectangle-173"></div>
-
-                <div class="rectangle-18"></div>
+                <div className="rectangle-17"></div>
 
             </div>
 
-            <div class="group-21">
-                <div class="pozos">Pozos</div>
+            <div className="group-19">
+                <div className="desasolve-de-pozos">Desasolve de pozos</div>
 
-                <div class="_240-">240+</div>
-
-                <div class="rectangle-174"></div>
-
-                <div class="rectangle-182"></div>
+                <div className="rectangle-172"></div>
 
             </div>
 
-            <div class="rectangle-175"></div>
+            <div className="group-20">
+                <div className="barrenos">Barrenos</div>
 
-            <div class="rectangle-23"></div>
+                <div className="rectangle-173"></div>
 
-            <div class="conoce-mas----">Conoce mas ...</div>
+                <div className="rectangle-18"></div>
+
+            </div>
+
+            <div className="group-21">
+                <div className="pozos">Pozos</div>
+
+                <div className="_240-">240+</div>
+
+                <div className="rectangle-174"></div>
+
+                <div className="rectangle-182"></div>
+
+            </div>
+
+            <div className="rectangle-175"></div>
+
+            <div className="rectangle-23"></div>
+
+            <div className="conoce-mas----">Conoce mas ...</div>
 
             <defs>
                 <pattern
@@ -90,19 +90,19 @@ function Services() {
                 />
             </defs>
 
-            <div class="group-26">
+            <div className="group-26">
 
-                <div class="mecanica-de-suelos2">Mecanica de suelos</div>
+                <div className="mecanica-de-suelos2">Mecanica de suelos</div>
             </div>
 
-            <div class="rectangle-19"></div>
+            <div className="rectangle-19"></div>
 
-            <div class="group-22">
+            <div className="group-22">
 
             </div>
 
-            <div class="group-23">
-                <div class="entypo-light-down8">
+            <div className="group-23">
+                <div className="entypo-light-down8">
 
                     <defs>
                         <linearGradient
@@ -118,23 +118,23 @@ function Services() {
                         </linearGradient>
                     </defs>
 
-                    <div class="rectangle-183"></div>
+                    <div className="rectangle-183"></div>
                 </div>
             </div>
 
-            <div class="group-31">
+            <div className="group-31">
 
             </div>
 
-            <div class="group-30">
+            <div className="group-30">
 
             </div>
 
-            <div class="rectangle-20"></div>
+            <div className="rectangle-20"></div>
 
-            <div class="rectangle-21"></div>
+            <div className="rectangle-21"></div>
 
-            <div class="rectangle-22"></div>
+            <div className="rectangle-22"></div>
         </div>
     );
 }

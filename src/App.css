@@ -505,7 +505,7 @@ nav {
   font: 500 14px "TT Hoves", sans-serif;
   position: absolute;
   left: 939.17px;
-  top: 342.92px;
+  top: 242.92px;
   width: 217.52px;
   height: 17.01px;
 }
@@ -525,10 +525,10 @@ nav {
   background: var(--gray6, #f2f2f2);
   border-radius: 30px;
   width: 740.32px;
-  height: 462px;
+  height: 662px;
   position: absolute;
   left: 444.38px;
-  top: 146.84px;
+  top: 46.84px;
 }
 
 .test-gmail-com {
@@ -537,7 +537,7 @@ nav {
   font: 500 14px "TT Hoves", sans-serif;
   position: absolute;
   left: 939.17px;
-  top: 289.2px;
+  top: 189.2px;
   width: 217.52px;
   height: 17.91px;
 }
@@ -545,14 +545,14 @@ nav {
 .ic-round-mail {
   position: absolute;
   left: 898.1px;
-  top: 286.51px;
+  top: 186.51px;
   overflow: visible;
 }
 
 .ic-round-call {
   position: absolute;
   left: 898.1px;
-  top: 339.34px;
+  top: 239.34px;
   overflow: visible;
 }
 
@@ -574,13 +574,13 @@ nav {
   overflow: visible;
 }
 
-.thank-you-for-contacting-us--you-will-get-an-answer-soon {
+.thank-you {
   color: #2a796b;
   text-align: left;
   font: 400 8px/138.5% "Poppins", sans-serif;
   position: absolute;
   left: 704.85px;
-  top: 544.37px;
+  top: 494.37px;
   width: 152.17px;
   height: 21.49px;
 }
@@ -592,9 +592,9 @@ nav {
   text-transform: uppercase;
   position: absolute;
   left: 558.28px;
-  top: 196.98px;
-  width: 222.19px;
-  height: 48.35px;
+  top: 96.98px;
+  width: 100.19px;
+  height: 18.35px;
 }
 
 .rectangle-30 {
@@ -604,7 +604,7 @@ nav {
   height: 4.48px;
   position: absolute;
   left: 558.28px;
-  top: 256.07px;
+  top: 156.07px;
 }
 
 .rectangle-31 {
@@ -639,17 +639,17 @@ nav {
   font: 400 14px/138.5% "Poppins", sans-serif;
   position: absolute;
   left: 575.08px;
-  top: 300.56px;
+  top: 190.56px;
   width: 110.16px;
   height: 18.85px;
 }
 
 .group-36 {
-  width: 298.74px;
-  height: 77.61px;
+  width: 148.74px;
+  height: 57.61px;
   position: static;
   left: 575.08px;
-  top: 300.56px;
+  top: 200.56px;
 }
 
 .rectangle-232 {
@@ -667,7 +667,7 @@ nav {
   font: 400 14px/138.5% "Poppins", sans-serif;
   position: absolute;
   left: 575.08px;
-  top: 358.09px;
+  top: 238.09px;
   width: 49.48px;
   height: 18.85px;
 }
@@ -703,7 +703,7 @@ nav {
   font: 400 14px/138.5% "Poppins", sans-serif;
   position: absolute;
   left: 575.08px;
-  top: 415.63px;
+  top: 295.63px;
   width: 105.49px;
   height: 18.85px;
 }
@@ -740,7 +740,7 @@ nav {
   font: 400 14px/138.5% "Poppins", sans-serif;
   position: absolute;
   left: 575.08px;
-  top: 473.16px;
+  top: 353.16px;
   width: 58.81px;
   height: 18.85px;
 }
@@ -767,8 +767,8 @@ nav {
   font: 600 14px/138.5% "Poppins", sans-serif;
   text-transform: uppercase;
   position: absolute;
-  left: 593.75px;
-  top: 546.56px;
+  left: 573.75px;
+  top: 476.56px;
   width: 48.55px;
   height: 18.85px;
 }
