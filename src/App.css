@@ -176,22 +176,7 @@ header {
     position: static;
   }
 
-  .rectangle-12 {
-    background: #ffffff;
-    border-radius: 8px;
-    border-width: 1px;
-    border-style: solid;
-    border-image: var(--gr1,
-        linear-gradient(89.65deg,
-          rgba(255, 103, 83, 1) 0%,
-          rgba(255, 143, 80, 1) 100%));
-    border-image-slice: 1;
-    width: 153px;
-    height: 46px;
-    position: absolute;
-    left: 348px;
-    top: 79px;
-  }
+
 
   .-qui-nes-somos- {
     color: #040404;
@@ -329,9 +314,11 @@ nav {
   align-items: flex-start;
   justify-content: flex-start;
   position: absolute;
-
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   overflow: hidden;
+  width: 1327px;
+  height: 593px;
+  top: 1px;
 }
 
 ._123 {
@@ -342,6 +329,7 @@ nav {
   height: 503px;
   position: relative;
   overflow: hidden;
+  top: 0px;
 }
 
 .group-10 {
@@ -356,13 +344,13 @@ nav {
   font: 400 16px "Arial", sans-serif;
   opacity: 0.6000000238418579;
   position: absolute;
-  left: 380.41px;
+  left: 440.41px;
   top: 45.03px;
   width: 117.48px;
   height: 11.05px;
 }
 
-.quienes {
+.home {
   color: #000000;
   text-align: left;
   font: 400 16px "Arial", sans-serif;
@@ -374,13 +362,25 @@ nav {
   height: 11.05px;
 }
 
+.quienes {
+  color: #000000;
+  text-align: left;
+  font: 400 16px "Arial", sans-serif;
+  opacity: 0.6000000238418579;
+  position: absolute;
+  left: 160px;
+  top: 45px;
+  width: 185px;
+  height: 11.05px;
+}
+
 .servicios {
   color: #000000;
   text-align: left;
   font: 400 16px "Arial", sans-serif;
   opacity: 0.6000000238418579;
   position: absolute;
-  left: 260px;
+  left: 320px;
   top: 45px;
   width: 185px;
   height: 11.05px;
@@ -510,6 +510,17 @@ nav {
   height: 17.01px;
 }
 
+.tel2 {
+  color: #4f4f4f;
+  text-align: left;
+  font: 500 14px "TT Hoves", sans-serif;
+  position: absolute;
+  left: 939.17px;
+  top: 292.92px;
+  width: 217.52px;
+  height: 17.01px;
+}
+
 .rectangle-25 {
   background: linear-gradient(to left,
       rgba(7, 19, 65, 0.4),
@@ -553,6 +564,13 @@ nav {
   position: absolute;
   left: 898.1px;
   top: 239.34px;
+  overflow: visible;
+}
+
+.ic-round-call2 {
+  position: absolute;
+  left: 898.1px;
+  top: 289.34px;
   overflow: visible;
 }
 
@@ -746,6 +764,8 @@ nav {
 }
 
 .group-39 {
+  left: 775.08px;
+  top: 573.16px;
   width: 118.56px;
   height: 47.61px;
   position: static;
@@ -768,9 +788,7 @@ nav {
   text-transform: uppercase;
   position: absolute;
   left: 573.75px;
-  top: 476.56px;
-  width: 48.55px;
-  height: 18.85px;
+  top: 516.56px;
 }
 
 .contacto {
@@ -786,30 +804,22 @@ nav {
 
 .component-2 {
   width: 1307px;
-  height: 760px;
-  position: absolute;
-  left: 0px;
-  top: 667px;
-}
-
-.rectangle-14 {
-  background: #fcfcfc;
-  width: 1307px;
-  height: 760px;
+  height: 667px;
   position: absolute;
   left: 0px;
   top: 0px;
 }
 
-.rectangle-27 {
-  background: #ff537c;
-  border-radius: 8px;
-  width: 84.96px;
-  height: 85.63px;
+.rectangle-14 {
+  background: #fcfcfc;
+  width: 1307px;
+  height: 1135px;
   position: absolute;
-  left: 386.5px;
-  top: 487.53px;
+  left: 0px;
+  top: 0px;
 }
+
+
 
 .nuestros-servicios {
   color: var(--gr1,
@@ -820,7 +830,7 @@ nav {
   font: 400 16px/24px "Arial Rounded MT Bold", sans-serif;
   position: absolute;
   left: 578.81px;
-  top: 352.27px;
+  top: 202.27px;
   width: 148.44px;
   height: 23.35px;
 }
@@ -855,13 +865,6 @@ nav {
   top: 77.85px;
 }
 
-.entypo-light-down {
-  position: absolute;
-  left: 118.59px;
-  top: 89.53px;
-  overflow: visible;
-}
-
 .group-18 {
   width: 160.22px;
   height: 54.49px;
@@ -890,6 +893,13 @@ nav {
   position: absolute;
   left: 339.48px;
   top: 77.85px;
+}
+
+.entypo-light-down {
+  position: absolute;
+  left: 118.59px;
+  top: 89.53px;
+  overflow: visible;
 }
 
 .entypo-light-down2 {
@@ -1024,16 +1034,6 @@ nav {
   top: 77.85px;
 }
 
-.rectangle-182 {
-  background: #95cb7c;
-  border-radius: 8px;
-  width: 95.22px;
-  height: 84.66px;
-  position: absolute;
-  left: 1057.74px;
-  top: 486.56px;
-}
-
 .entypo-light-down5 {
   position: absolute;
   left: 1047.08px;
@@ -1051,17 +1051,6 @@ nav {
   position: absolute;
   left: 107.36px;
   top: 181px;
-}
-
-.rectangle-236 {
-  background: #ffffff;
-  border-radius: 8px;
-  width: 194.18px;
-  height: 291.93px;
-  position: absolute;
-  left: 107.36px;
-  top: 432.06px;
-  box-shadow: var(--_1-box-shadow, 0px 6px 20px 0px rgba(0, 255, 224, 0.2));
 }
 
 .conoce-mas---- {
@@ -1086,17 +1075,49 @@ nav {
   overflow: visible;
 }
 
-.group-26 {
-  width: 181.11px;
-  height: 52.55px;
-  position: static;
+.entypo-light-down6 {
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  overflow: visible;
+  left: 50px;
+  top: 20px;
 }
 
-.entypo-light-down6 {
-  position: absolute;
-  left: 112.96px;
-  top: 474.88px;
+.entypo-light-down7 {
+  align-items: center;
+  width: 50px;
+  height: 50px;
   overflow: visible;
+  left: 25px;
+  top: 3px;
+}
+
+.entypo-light-down8 {
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  overflow: visible;
+  left: 50px;
+  top: 20px;
+}
+
+.entypo-light-down9 {
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  overflow: visible;
+  left: 0px;
+  top: 2px;
+}
+
+.entypo-light-down10 {
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  overflow: visible;
+  left: 3px;
+
 }
 
 .mecanica-de-suelos2 {
@@ -1132,27 +1153,6 @@ nav {
   position: static;
 }
 
-.entypo-light-down7 {
-  position: absolute;
-  left: 392.1px;
-  top: 493.37px;
-  overflow: visible;
-}
-
-.group-23 {
-  width: 75.62px;
-  height: 76.88px;
-  position: static;
-}
-
-.entypo-light-down8 {
-  width: 75.62px;
-  height: 76.88px;
-  position: absolute;
-  left: 615.22px;
-  top: 492.39px;
-  overflow: hidden;
-}
 
 .vector11 {
   position: absolute;
@@ -1177,12 +1177,6 @@ nav {
   position: static;
 }
 
-.entypo-light-down9 {
-  position: absolute;
-  left: 1067.07px;
-  top: 493.37px;
-  overflow: visible;
-}
 
 .group-30 {
   width: 75.62px;
@@ -1190,12 +1184,6 @@ nav {
   position: static;
 }
 
-.entypo-light-down10 {
-  position: absolute;
-  left: 844.88px;
-  top: 492.39px;
-  overflow: visible;
-}
 
 .rectangle-20 {
   border-radius: 8px;
@@ -1412,4 +1400,186 @@ nav {
   position: absolute;
   left: 680px;
   top: 272px;
+}
+
+/* .card {
+  border-radius: 8px;
+  border-width: 2px;
+  align-items: center;
+  border-style: solid;
+  border-image: var(--gr1,
+      linear-gradient(89.65deg,
+        rgba(255, 103, 83, 1) 0%,
+        rgba(255, 143, 80, 1) 100%));
+  border-image-slice: 1;
+  width: 195.12px;
+  height: 200.46px;
+  position: absolute;
+  left: 93.42px;
+  top: 432.06px;
+}
+
+.card:hover {
+  border-radius: 8px;
+  background-color: #f0525f;
+  align-items: flex-start;
+  font: 400 14px/18px "Arial Rounded MT Bold", sans-serif;
+  position: absolute;
+  left: 93.42px;
+  top: 432.06px;
+  width: 195.12px;
+  height: 250.46px;
+  box-shadow: var(--_1-box-shadow, 0px 6px 20px 0px rgba(0, 255, 224, 0.2));
+} */
+
+.container {
+  align-items: center;
+  border-image-slice: 1;
+  width: 195.12px;
+  height: 200.46px;
+  border-radius: 8px;
+  border-width: 2px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container .mec {
+  position: absolute;
+  left: 93.42px;
+  top: 202.06px;
+}
+
+.container .tf {
+  position: absolute;
+  left: 330.1px;
+  top: 202.06px;
+}
+
+.container .dp {
+  position: absolute;
+  left: 533.42px;
+  top: 202.06px;
+}
+
+.container .barr {
+  position: absolute;
+  left: 760.1px;
+  top: 202.06px;
+}
+
+.container .pozos {
+  position: absolute;
+  left: 973.42px;
+  top: 202.06px;
+}
+
+.container .card {
+  position: absolute;
+  cursor: pointer;
+  border-radius: 8px;
+  border-width: 2px;
+  width: 195.12px;
+  height: 250.46px;
+}
+
+.container .card .face {
+  width: 195.12px;
+  height: 250.46px;
+  transition: 0.5s;
+  left: 0px;
+  top: 0px;
+  border-radius: 8px;
+  border-width: 2px;
+}
+
+.container .card .face.face1 {
+  border-color: rgb(207, 94, 18);
+  border-style: solid;
+  border-radius: 8px;
+  border-width: 2px;
+  position: relative;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  transform: translateY(100px);
+  width: 195.12px;
+  height: 250.46px;
+  left: 0px;
+}
+
+.container .card:hover .face.face1 {
+  background: linear-gradient(89.65deg, rgba(255, 103, 83, 1) 0%, rgba(255, 143, 80, 1) 100%);
+  transform: translateY(0);
+  left: 0px;
+  width: 195.12px;
+  height: 250.46px;
+}
+
+.container .card .face.face1 .content {
+  align-items: center;
+  transition: 0.5s;
+}
+
+.container .card:hover .face.face1 .content {
+  opacity: 1;
+}
+
+.container .card .face.face1 .content img {
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  overflow: visible;
+  position: relative;
+  align-content: center;
+}
+
+.container .card .face.face1 .content h3 {
+  margin: 10px 0 0;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  font-size: 1.5em;
+  left: 0px;
+}
+
+.container .card .face.face2 {
+  position: relative;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+  transform: translateY(-100px);
+  left: 0px;
+  top: 0px;
+  width: 195.12px;
+  height: 100.46px;
+}
+
+.container .card:hover .face.face2 {
+  transform: translateY(0);
+}
+
+.container .card .face.face2 .content p {
+  margin: 0;
+  padding: 0;
+}
+
+.container .card .face.face2 .content a {
+  margin: 15px 0 0;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 900;
+  color: #333;
+  padding: 5px;
+  border: 1px solid #333;
+}
+
+.container .card .face.face2 .content a:hover {
+  background: #333;
+  color: #fff;
 }

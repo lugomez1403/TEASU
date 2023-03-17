@@ -1,16 +1,11 @@
 
 import '../App.css';
-import Navbar from '../components/NavBar';
-import { BrowserRouter } from 'react-router-dom';
 
-function Home() {
+const Home = () => {
     return (
         <div className="plugin---file-cover---1">
             <div className="_123">
                 <div className="group-10">
-                    <BrowserRouter>
-                        <Navbar />
-                    </BrowserRouter>
                 </div>
                 <div className="rectangle-26"></div>
 

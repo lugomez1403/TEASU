@@ -1,10 +1,7 @@
-import * as React from 'react';
 import '../App.css';
-import Navbar from '../components/NavBar';
-import { BrowserRouter } from 'react-router-dom';
 
 
-function Quien() {
+const Quien = () => {
     return (
         <div className="component-1">
             <div className="group-132">
