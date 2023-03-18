@@ -3,11 +3,6 @@ import '../App.css';
 import CompCard from '../components/Card';
 
 class Services extends React.Component {
-    constructor(props) {
-        super(props);
-
-
-    }
     render() {
         return (
             <div className="component-2">

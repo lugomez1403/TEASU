@@ -56,7 +56,9 @@ class Contact extends React.Component {
             email: '',
             phone: '',
             message: '',
-            errors: ''
+            errors: '',
+            alert: false,
+            errormsg: ''
         };
         this.EnvioMail = this.EnvioMail.bind(this);
         this.handleClick = this.handleClick.bind(this);
@@ -64,6 +66,7 @@ class Contact extends React.Component {
         this.handleChangeMessage = this.handleChangeMessage.bind(this);
         this.handleChangeEmail = this.handleChangeEmail.bind(this);
         this.handleChangePhone = this.handleChangePhone.bind(this);
+        this.handleClickAlert = this.handleClickAlert.bind(this);
     }
 
     handleChangeName(e) {
@@ -86,9 +89,32 @@ class Contact extends React.Component {
         if (errors === true) {
             console.log("EROOOR")
         } else {
-            if (errors.email) {
-                alert(errors.email);
+            if (errors.name) {
+                this.setState({
+                    alert: true,
+                    errormsg: errors.name
+                });
             }
+            if (errors.email) {
+                this.setState({
+                    alert: true,
+                    errormsg: errors.email
+                });
+                //alert(errors.email);
+            }
+            if (errors.phone) {
+                this.setState({
+                    alert: true,
+                    errormsg: errors.phone
+                });
+            }
+            if (errors.message) {
+                this.setState({
+                    alert: true,
+                    errormsg: errors.message
+                });
+            }
+            return
         }
         emailjs.sendForm('service_op0hytd', 'template_fbxk7kh', e.target, 'I-Zq9xxK6ddg762ub').then((response) => {
             console.log('SUCCESS!', response.status, response.text);
@@ -109,6 +135,10 @@ class Contact extends React.Component {
         console.log("1", this.state.email);
         const emailRegex = /^[-\w.%+]{1,64}@(?:[A-Z0-9-]{1,63}\.){1,125}[A-Z]{2,63}$/i;
 
+        if (!this.state.name) {
+            errors.name = "El nombre no puede estar vacio";
+            return errors;
+        }
         if (!this.state.email) {
             console.log("2")
             errors.email = "Email no puede estar vacio";
@@ -117,12 +147,12 @@ class Contact extends React.Component {
             errors.email = "por favor introdusca un email valido";
             return errors;
         }
-        if (!this.state.name) {
-            errors.password = "El nombre no puede estar vacio";
+        if (!this.state.phone) {
+            errors.phone = "El telefono no puede estar vacio";
             return errors;
         }
         if (!this.state.message) {
-            errors.password = "El telefono no puede estar vacio";
+            errors.message = "El mensaje no puede estar vacio";
             return errors;
         }
 
@@ -132,6 +162,11 @@ class Contact extends React.Component {
     handleClick() {
         this.setState({
             open: false
+        });
+    };
+    handleClickAlert() {
+        this.setState({
+            alert: false
         });
     };
     render() {
@@ -150,9 +185,26 @@ class Contact extends React.Component {
                             }
                         }}
                     >
-                        <AlertTitle>Danger!</AlertTitle>
+                        <AlertTitle>Succes!</AlertTitle>
                         ¡Mensaje enviado!
                         En breve nos comunicaremos.
+                    </Alert>
+                </Dialog>
+                <Dialog open={this.state.alert} onClose={this.handleClickAlert}>
+                    <Alert
+                        severity="error"
+                        color="error"
+                        role="button"
+                        onClose={this.handleClickAlert}
+                        closeText="Doesn't Work!"
+                        sx={{
+                            "& .MuiAlert-icon": {
+                                color: "red"
+                            }
+                        }}
+                    >
+                        <AlertTitle>Danger!</AlertTitle>
+                        {this.state.errormsg}
                     </Alert>
                 </Dialog>
 

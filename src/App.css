@@ -306,7 +306,7 @@ nav {
 }
 
 .plugin---file-cover---1 {
-  background: #bd5215;
+  /* background: #bd5215; */
   padding: 82px 80px 82px 80px;
   display: flex;
   flex-direction: column;
@@ -1577,9 +1577,4 @@ nav {
   color: #333;
   padding: 5px;
   border: 1px solid #333;
-}
-
-.container .card .face.face2 .content a:hover {
-  background: #333;
-  color: #fff;
 }
