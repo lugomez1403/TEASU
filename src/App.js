@@ -7,20 +7,33 @@ import Home from './Views/home';
 import Contact from './Views/contact';
 import Como from './Views/quien';
 import Services from './Views/Services';
+import MediaQuery from 'react-responsive';
 
 function App() {
+  const opts = {
+    checkpoints: {
+      small: {
+        width: [0, 400]
+      },
+      big: {
+        width: [401, null]
+      }
+    }
+  }
 
   return (
     <>
-      <Router>
-        <Navbar />
-        <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route path="/como" element={<Como />} />
-          <Route path="/Services" element={<Services />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-      </Router>
+      <MediaQuery minWidth={224}>
+        <Router>
+          <Navbar />
+          <Routes>
+            <Route exact path="/" element={<Home />} />
+            <Route path="/como" element={<Como />} />
+            <Route path="/Services" element={<Services />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </Router>
+      </MediaQuery>
     </>
   );
 }

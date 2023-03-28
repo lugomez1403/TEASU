@@ -134,31 +134,33 @@ class Services extends React.Component {
 
                 <div className="container">
                     <div className="mec">
-                        <CompCard clase="entypo-light-down6" image="sunMecanic.png" title="Mecanica de suelos" modal="Mecánica de suelos: se profundiza de acuerdo a las cargas que vaya a recibir el suelo dependiendo del proyecto,con estos trabajos se obtiene la estratigrafia del lugar,capacidad de carga y posibles oquedades subterráneas que existan en el suelo."></CompCard>
+
+                        <CompCard clase="entypo-light-down6" image="sunMecanic.png" title="Mecanica de suelos" modal="Se profundiza de acuerdo a las cargas que vaya a recibir el suelo dependiendo del proyecto, con estos trabajos se obtiene la estratigrafia del lugar,capacidad de carga y posibles oquedades subterráneas que existan en el suelo."></CompCard>
+
                     </div>
 
 
 
                     <div className="tf">
-                        <CompCard clase="entypo-light-down7" image="sunTF.png" title="Tierras Fisicas" modal="Tierras físicas: se realiza el barreno a una profundidad aproximada de 9 metros para introducir cableado a tierra de una instalación eléctrica."></CompCard>
+                        <CompCard clase="entypo-light-down7" image="sunTF.png" title="Tierras Fisicas" modal="Se realiza el barreno a una profundidad aproximada de 9 metros para introducir cableado a tierra de una instalación eléctrica."></CompCard>
                     </div>
 
 
 
                     <div className="dp">
-                        <CompCard clase="entypo-light-down8" image="sunDP.png" title="Desasolve de pozos" modal="Desazolve de pozos: consiste en introducir la tubería a un pozo ya existente y por medio de presión extraer todo el material orgánico que esté dentro del pozo."></CompCard>
+                        <CompCard clase="entypo-light-down8" image="sunDP.png" title="Desasolve de pozos" modal="Consiste en introducir la tubería a un pozo ya existente y por medio de presión extraer todo el material orgánico."></CompCard>
                     </div>
 
 
 
                     <div className="barr">
-                        <CompCard clase="entypo-light-down9" image="sunBarre.png" title="Barrenos" modal="Barrenos para bancos de materiales: se realizan a una profundidad entre 4 y 6 metros dependiendo del volumen que se vaya a extraer para fines comerciales."></CompCard>
+                        <CompCard clase="entypo-light-down9" image="sunBarre.png" title="Barrenos" modal="Se realizan a una profundidad entre 4 y 6 metros dependiendo del volumen que se vaya a extraer para fines comerciales."></CompCard>
                     </div>
 
 
 
                     <div className="pozos">
-                        <CompCard clase="entypo-light-down10" image="sunPozos.png" title="Pozos" modal="Pozos para agua: se realizan con dos medidas 3'pulgadas y 4'pulgadas, después de perforar a 14 metros,que es la profundidad donde sale el agua pura, después de perforar se entuba con tubos de PVC de acuerdo al diámetro."></CompCard>
+                        <CompCard clase="entypo-light-down10" image="sunPozos.png" title="Pozos" modal="Se realizan con dos medidas 3'pulgadas y 4'pulgadas, después de perforar a 14 metros,que es la profundidad donde sale el agua pura, después de perforar se entuba con tubos de PVC de acuerdo al diámetro."></CompCard>
                     </div>
                 </div>
 

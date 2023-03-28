@@ -38,16 +38,16 @@ function CompCard(props) {
         open: PropTypes.bool,
     };
     const Modal = styled(ModalUnstyled)(`
-  position: fixed;
-  z-index: 1300;
-  right: 0;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  &.MuiModal-hidden {
+    position: fixed;
+    z-index: 1300;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &.MuiModal-hidden {
     visibility: hidden;
   }
 `);
@@ -65,9 +65,11 @@ function CompCard(props) {
 
     const style = (theme) => ({
         width: 400,
-        bgcolor: theme.palette.mode === 'dark' ? '#0A1929' : 'white',
-        border: '2px solid currentColor',
+        rigth: 300,
+        bgcolor: theme.palette.mode === 'blue' ? '#0A1929' : 'white',
+        border: '25px radius:25px currentColor',
         padding: '16px 32px 24px 32px',
+        transition: 'all 500ms ease-in',
     });
 
     const [open, setOpen] = React.useState(false);
@@ -85,8 +87,8 @@ function CompCard(props) {
                 keepMounted
             >
                 <Box sx={style}>
-                    <h2 id="keep-mounted-modal-title">{props.title}</h2>
-                    <p id="keep-mounted-modal-description">{props.modal}</p>
+                    <h2 className='modalTitle' id="keep-mounted-modal-title">{props.title}</h2>
+                    <p className='modaldescrip' id="keep-mounted-modal-description">{props.modal}</p>
                 </Box>
             </Modal>
             <div className="card">

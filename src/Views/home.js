@@ -1,9 +1,15 @@
 import React from 'react';
 import '../App.css';
 import styled, { keyframes } from "styled-components";
+import { useMediaQuery } from 'react-responsive';
+import MediaQuery from 'react-responsive';
 
 const Home = () => {
-    const credits = keyframes`
+  const isDesktopOrLaptop = useMediaQuery(
+    { minDeviceWidth: 1224 },
+    { deviceWidth: 1600 } // `device` prop
+  )
+  const credits = keyframes`
     0%{
       transform: translateY(-200%);
     }
@@ -13,7 +19,7 @@ const Home = () => {
     }
   `;
 
-    const AnimatedBackground = styled.div`
+  const AnimatedBackground = styled.div`
     background: black;
     height: 100vh;
     width: 100%;
@@ -23,54 +29,61 @@ const Home = () => {
     flex-flow: row wrap;
   `;
 
-    const Div = styled.div`
+  const Div = styled.div`
     overflow: hidden;
     z-index: -1;
   `;
 
-    const Background = styled.span`
+  const Background = styled.span`
     width: 100%;
     height: 100%;
     background-color: ${({ items }) => (items === "1" ? "red" : "blue")};
     background-image: url(${({ items }) =>
-            items === "1"
-                ? "trabajos.jpeg"
-                : "jobs.jpeg"});
+      items === "1"
+        ? "trabajos.jpeg"
+        : "jobs.jpeg"});
   `;
-    return (
-        <React.Fragment>
-            <Div>
-                <AnimatedBackground>
-                    <Background items="1"></Background>
-                    <Background items="2"></Background>
-                    <Background items="1"></Background>
-                    <Background />
-                </AnimatedBackground>
-            </Div>
-            <div className="plugin---file-cover---1">
-                <div className="_123">
-                    <div className="group-10">
-                    </div>
-                    <div className="rectangle-26"></div>
+  return (
 
-                    <div className="group-13">
-                        <div className="expertos-en-mec-nica-de-suelos">
-                            Expertos en mecánica de suelos
-                        </div>
-                    </div>
+    <React.Fragment>
+      <MediaQuery minWidth={224}>
+        <Div>
+          <AnimatedBackground>
+            <Background items="1"></Background>
+            <Background items="2"></Background>
+            <Background items="1"></Background>
+            <Background />
+          </AnimatedBackground>
+        </Div>
+      </MediaQuery>
+      {isDesktopOrLaptop &&
+        <div className="plugin---file-cover---1">
 
-                    <div className="rectangle-16"></div>
-
-                    <img
-                        className="whatsapp-image-2023-02-18-at-11-35-1"
-                        src="whatsapp-image-2023-02-18-at-11-35-1.png"
-                    />
-
-                    <img className="image-1" src="image1.png" />
-                </div>
+          <div className="_123">
+            <div className="group-10">
             </div>
-        </React.Fragment>
-    );
+            <div className="rectangle-26"></div>
+
+            <div className="group-13">
+              <div className="expertos-en-mec-nica-de-suelos">
+                Expertos en mecánica de suelos
+              </div>
+            </div>
+
+            <div className="rectangle-16"></div>
+
+            <img
+              className="whatsapp-image-2023-02-18-at-11-35-1"
+              src="whatsapp-image-2023-02-18-at-11-35-1.png"
+            />
+
+            <img className="image-1" src="image1.png" />
+          </div>
+
+        </div>
+      }
+    </React.Fragment>
+  );
 }
 
 export default Home;
