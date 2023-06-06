@@ -16,21 +16,21 @@ const Quien = () => {
 
             {/* <div class="rectangle-13"></div> */}
 
-            <img class="rectangle-5" src="trabajo1.jpg" />
+            <img class="rectangle-5" src="1.jpeg" />
 
-            <img class="rectangle-9" src="trabajo2.jpg" />
+            <img class="rectangle-9" src="2.jpeg" />
 
-            <img class="rectangle-6" src="trabajo3.jpeg" />
+            <img class="rectangle-6" src="3.jpeg" />
 
-            <img class="rectangle-10" src="trabajo4.jpg" />
+            <img class="rectangle-10" src="4.jpeg" />
 
-            <img class="rectangle-7" src="trabajo5.jpg" />
+            <img class="rectangle-7" src="5.jpeg" />
 
-            <img class="rectangle-11" src="trabajo6.jpeg" />
+            <img class="rectangle-11" src="6.jpeg" />
 
-            <img class="rectangle-8" src="trabajo7.jpg" />
+            <img class="rectangle-8" src="7.jpeg" />
 
-            <img class="rectangle-121" src="trabajo8.jpg" />
+            <img class="rectangle-121" src="8.jpeg" />
 
             <div class="ellipse-1"></div>
 

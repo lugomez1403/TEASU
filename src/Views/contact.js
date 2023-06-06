@@ -68,6 +68,7 @@ class Contact extends React.Component {
         this.handleChangeEmail = this.handleChangeEmail.bind(this);
         this.handleChangePhone = this.handleChangePhone.bind(this);
         this.handleClickAlert = this.handleClickAlert.bind(this);
+        this.cleanForm = this.cleanForm.bind(this);
     }
 
     handleChangeName(e) {
@@ -122,6 +123,7 @@ class Contact extends React.Component {
             this.setState({
                 open: true
             });
+            this.cleanForm();
             e.target.reset();
         }, (err) => {
             console.log('FAILED...', err);
@@ -170,6 +172,15 @@ class Contact extends React.Component {
             alert: false
         });
     };
+
+    cleanForm() {
+        this.setState({
+            name: '',
+            email: '',
+            phone: '',
+            message: ''
+        })
+    }
     render() {
         return (
             <React.Fragment>
@@ -286,7 +297,7 @@ class Contact extends React.Component {
                                 <div className="group-39">
                                     {/* <ThemeProvider theme={theme}> */}
                                     {/* <Button className='submit' variant="contained" type="submit">Enviar</Button> */}
-                                    <CustomButton className='submit' type="submit" >Enviar</CustomButton>
+                                    <CustomButton className='submit' type="submit">Enviar</CustomButton>
                                     {/* </ThemeProvider> */}
                                 </div>
                             </Box>

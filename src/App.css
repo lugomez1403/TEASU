@@ -1775,3 +1775,108 @@ header {
   left: 927.08px;
   top: 327.28px;
 }
+
+@media screen and (max-width: 320px) {
+  .plugin---file-cover---1 {
+    /* background: #bd5215; */
+    padding: 82px 80px 82px 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+    width: 100%;
+    top: 1px;
+  }
+
+  ._123 {
+    top: 0px;
+    width: calc(200px);
+    height: calc(400px);
+  }
+
+  .expertos-en-mec-nica-de-suelos {
+    color: #000000;
+    text-align: center;
+    font: 40 20px "Arial Rounded MT Bold", sans-serif;
+    position: relative;
+    left: 60px;
+    top: 20.14px;
+    width: 43px;
+    height: 78.86px;
+  }
+
+  .image-1 {
+    border-radius: 42px;
+    width: 160px;
+    height: 107px;
+    position: absolute;
+    left: 20px;
+    top: 203px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .plugin---file-cover---1 {
+    /* background: #bd5215; */
+    padding: 82px 80px 82px 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+    width: 100%;
+    top: 1px;
+  }
+
+  ._123 {
+    top: 0px;
+    width: calc(600px);
+    height: calc(400px);
+  }
+
+  .expertos-en-mec-nica-de-suelos {
+    color: #000000;
+    text-align: center;
+    font: 40 20px "Arial Rounded MT Bold", sans-serif;
+    position: relative;
+    left: 60px;
+    top: 20.14px;
+    width: 143px;
+    height: 78.86px;
+  }
+
+  .image-1 {
+    border-radius: 42px;
+    width: 260px;
+    height: 137px;
+    position: absolute;
+    left: 20px;
+    top: 203px;
+  }
+
+  .whatsapp-image-2023-02-18-at-11-35-1 {
+    width: 228px;
+    height: 114px;
+    position: absolute;
+    left: 321px;
+    top: 223px;
+  }
+
+  .rectangle-16 {
+    background: #bd5215;
+    border-radius: 8px;
+    width: 353px;
+    height: 248px;
+    position: absolute;
+    left: 363px;
+    top: 186px;
+    box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.25);
+  }
+}

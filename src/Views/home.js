@@ -5,10 +5,7 @@ import { useMediaQuery } from 'react-responsive';
 import MediaQuery from 'react-responsive';
 
 const Home = () => {
-  const isDesktopOrLaptop = useMediaQuery(
-    { minDeviceWidth: 1224 },
-    { deviceWidth: 1600 } // `device` prop
-  )
+
   const credits = keyframes`
     0%{
       transform: translateY(-200%);
@@ -40,8 +37,8 @@ const Home = () => {
     background-color: ${({ items }) => (items === "1" ? "red" : "blue")};
     background-image: url(${({ items }) =>
       items === "1"
-        ? "trabajos.jpeg"
-        : "jobs.jpeg"});
+        ? "jobs.jpg"
+        : "jobs.jpg"});
   `;
   return (
 
@@ -52,36 +49,35 @@ const Home = () => {
             <Background items="1"></Background>
             <Background items="2"></Background>
             <Background items="1"></Background>
-            <Background />
+
           </AnimatedBackground>
         </Div>
       </MediaQuery>
-      {isDesktopOrLaptop &&
-        <div className="plugin---file-cover---1">
 
-          <div className="_123">
-            <div className="group-10">
+      <div className="plugin---file-cover---1">
+
+        <div className="_123">
+          <div className="group-10">
+          </div>
+          <div className="rectangle-26"></div>
+
+          <div className="group-13">
+            <div className="expertos-en-mec-nica-de-suelos">
+              Expertos en mecánica de suelos
             </div>
-            <div className="rectangle-26"></div>
-
-            <div className="group-13">
-              <div className="expertos-en-mec-nica-de-suelos">
-                Expertos en mecánica de suelos
-              </div>
-            </div>
-
-            <div className="rectangle-16"></div>
-
-            <img
-              className="whatsapp-image-2023-02-18-at-11-35-1"
-              src="whatsapp-image-2023-02-18-at-11-35-1.png"
-            />
-
-            <img className="image-1" src="image1.png" />
           </div>
 
+          <div className="rectangle-16"></div>
+
+          <img
+            className="whatsapp-image-2023-02-18-at-11-35-1"
+            src="whatsapp-image-2023-02-18-at-11-35-1.png"
+          />
+
+          <img className="image-1" src="image1.png" />
         </div>
-      }
+
+      </div>
     </React.Fragment>
   );
 }
