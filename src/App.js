@@ -10,20 +10,11 @@ import Services from './Views/Services';
 import MediaQuery from 'react-responsive';
 
 function App() {
-  const opts = {
-    checkpoints: {
-      small: {
-        width: [0, 400]
-      },
-      big: {
-        width: [401, null]
-      }
-    }
-  }
+
 
   return (
     <>
-      <MediaQuery minWidth={224}>
+      <MediaQuery minWidth={320} >
         <Router>
           <Navbar />
           <Routes>

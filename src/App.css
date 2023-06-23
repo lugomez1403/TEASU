@@ -87,12 +87,12 @@ header {
 
 
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1440px) {
 
   .contenedor {
     position: absolute;
-    width: 1419px;
-    height: 672px;
+    width: 1440px;
+    height: 625px;
     left: 262px;
     top: 103px;
 
@@ -212,16 +212,7 @@ header {
     height: 85px;
   }
 
-  .rectangle-16 {
-    background: #ffffff;
-    border-radius: 8px;
-    width: 520px;
-    height: 281px;
-    position: absolute;
-    left: 657px;
-    top: 244px;
-    box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.25);
-  }
+
 
   .whatsapp-image-2023-02-18-at-11-35-2 {
     width: 466px;
@@ -255,6 +246,7 @@ header {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   overflow: hidden;
   width: 100%;
+  height: 100%;
   top: 1px;
 }
 
@@ -422,16 +414,16 @@ header {
 
 ._1232 {
   background: #bd5215;
-  width: 1307px;
-  height: 1135px;
+  width: 100%;
+  height: 100%;
   position: absolute;
   left: 0px;
   top: 0px;
 }
 
 .component-3 {
-  width: 1307px;
-  height: 1135px;
+  width: 120px;
+  height: 305px;
   position: absolute;
 
 }
@@ -441,7 +433,7 @@ header {
   text-align: left;
   font: 500 14px "TT Hoves", sans-serif;
   position: absolute;
-  left: 939.17px;
+  left: 739.17px;
   top: 242.92px;
   width: 217.52px;
   height: 17.01px;
@@ -452,7 +444,7 @@ header {
   text-align: left;
   font: 500 14px "TT Hoves", sans-serif;
   position: absolute;
-  left: 939.17px;
+  left: 739.17px;
   top: 292.92px;
   width: 217.52px;
   height: 17.01px;
@@ -462,8 +454,8 @@ header {
   background: linear-gradient(to left,
       rgba(7, 19, 65, 0.4),
       rgba(7, 19, 65, 0.4));
-  width: 1307px;
-  height: 476.33px;
+  width: 1309px;
+  height: 426.33px;
   position: absolute;
   left: 0px;
   top: 139.67px;
@@ -472,10 +464,10 @@ header {
 .rectangle-29 {
   background: var(--gray6, #f2f2f2);
   border-radius: 30px;
-  width: 740.32px;
-  height: 662px;
+  width: 900.32px;
+  height: 502px;
   position: absolute;
-  left: 444.38px;
+  left: 244.38px;
   top: 46.84px;
 }
 
@@ -484,7 +476,7 @@ header {
   text-align: left;
   font: 500 14px "TT Hoves", sans-serif;
   position: absolute;
-  left: 939.17px;
+  left: 739.17px;
   top: 189.2px;
   width: 217.52px;
   height: 17.91px;
@@ -492,21 +484,21 @@ header {
 
 .ic-round-mail {
   position: absolute;
-  left: 898.1px;
+  left: 698.1px;
   top: 186.51px;
   overflow: visible;
 }
 
 .ic-round-call {
   position: absolute;
-  left: 898.1px;
+  left: 698.1px;
   top: 239.34px;
   overflow: visible;
 }
 
 .ic-round-call2 {
   position: absolute;
-  left: 898.1px;
+  left: 698.1px;
   top: 289.34px;
   overflow: visible;
 }
@@ -532,10 +524,10 @@ header {
 .thank-you {
   color: #2a796b;
   text-align: left;
-  font: 400 8px/138.5% "Poppins", sans-serif;
+  font: 400 10px/138.5% "Poppins", sans-serif;
   position: absolute;
-  left: 704.85px;
-  top: 494.37px;
+  left: 834.85px;
+  top: 464.37px;
   width: 152.17px;
   height: 21.49px;
 }
@@ -546,7 +538,7 @@ header {
   font: 900 36px/138% "Poppins", sans-serif;
   text-transform: uppercase;
   position: absolute;
-  left: 558.28px;
+  left: 358.28px;
   top: 96.98px;
   width: 100.19px;
   height: 18.35px;
@@ -558,7 +550,7 @@ header {
   width: 65.35px;
   height: 4.48px;
   position: absolute;
-  left: 558.28px;
+  left: 358.28px;
   top: 156.07px;
 }
 
@@ -593,7 +585,7 @@ header {
   text-align: left;
   font: 400 14px/138.5% "Poppins", sans-serif;
   position: absolute;
-  left: 575.08px;
+  left: 375.08px;
   top: 190.56px;
   width: 110.16px;
   height: 18.85px;
@@ -621,7 +613,7 @@ header {
   text-align: left;
   font: 400 14px/138.5% "Poppins", sans-serif;
   position: absolute;
-  left: 575.08px;
+  left: 375.08px;
   top: 238.09px;
   width: 49.48px;
   height: 18.85px;
@@ -657,8 +649,8 @@ header {
   text-align: left;
   font: 400 14px/138.5% "Poppins", sans-serif;
   position: absolute;
-  left: 575.08px;
-  top: 295.63px;
+  left: 375.08px;
+  top: 275.63px;
   width: 105.49px;
   height: 18.85px;
 }
@@ -694,8 +686,8 @@ header {
   text-align: left;
   font: 400 14px/138.5% "Poppins", sans-serif;
   position: absolute;
-  left: 575.08px;
-  top: 353.16px;
+  left: 375.08px;
+  top: 323.16px;
   width: 58.81px;
   height: 18.85px;
 }
@@ -724,8 +716,8 @@ header {
   font: 600 14px/138.5% "Poppins", sans-serif;
   text-transform: uppercase;
   position: absolute;
-  left: 573.75px;
-  top: 516.56px;
+  left: 703.75px;
+  top: 450.56px;
 }
 
 .contacto {
@@ -741,7 +733,7 @@ header {
 
 .component-2 {
   width: 1307px;
-  height: 667px;
+  height: 427px;
   position: absolute;
   left: 0px;
   top: 0px;
@@ -749,11 +741,9 @@ header {
 
 .rectangle-14 {
   background: #fcfcfc;
-  width: 1307px;
-  height: 1135px;
+  width: 1305px;
+  height: 407px;
   position: absolute;
-  left: 0px;
-  top: 0px;
 }
 
 .nuestros-servicios {
@@ -883,7 +873,7 @@ header {
 
 .group-20 {
   width: 163.79px;
-  height: 495.31px;
+  height: 335.31px;
   position: static;
 }
 
@@ -926,12 +916,6 @@ header {
   left: 814.96px;
   top: 89.53px;
   overflow: visible;
-}
-
-.group-21 {
-  width: 163.79px;
-  height: 493.37px;
-  position: static;
 }
 
 .pozos {
@@ -1015,7 +999,7 @@ header {
   width: 50px;
   height: 50px;
   overflow: visible;
-  left: 50px;
+  left: 40px;
   top: 20px;
 }
 
@@ -1370,8 +1354,8 @@ header {
 .container {
   align-items: center;
   border-image-slice: 1;
-  width: 195.12px;
-  height: 200.46px;
+  width: 0px;
+  height: 0px;
   border-radius: 8px;
   border-width: 2px;
   display: flex;
@@ -1381,31 +1365,31 @@ header {
 .container .mec {
   position: absolute;
   left: 93.42px;
-  top: 202.06px;
+  top: 162.06px;
 }
 
 .container .tf {
   position: absolute;
   left: 330.1px;
-  top: 202.06px;
+  top: 162.06px;
 }
 
 .container .dp {
   position: absolute;
   left: 533.42px;
-  top: 202.06px;
+  top: 162.06px;
 }
 
 .container .barr {
   position: absolute;
   left: 760.1px;
-  top: 202.06px;
+  top: 162.06px;
 }
 
 .container .pozos {
   position: absolute;
   left: 973.42px;
-  top: 202.06px;
+  top: 162.06px;
 }
 
 .container .card {
@@ -1525,21 +1509,30 @@ header {
   text-decoration-color: #040404;
 }
 
+.imgmod {
+  border-radius: 30px;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  align-content: center;
+
+}
+
 .component-2,
 .component-2 * {
   box-sizing: border-box;
 }
 
 .component-2 {
-  width: 100%;
-  height: 100%;
+  width: 1307px;
+  height: 427px;
   position: relative;
 }
 
 .rectangle-4 {
   background: #ffffff;
-  width: 1335px;
-  height: 727px;
+  width: 1305px;
+  height: 407px;
   position: absolute;
   left: 0px;
   top: 0px;
@@ -1801,7 +1794,7 @@ header {
   .expertos-en-mec-nica-de-suelos {
     color: #000000;
     text-align: center;
-    font: 40 20px "Arial Rounded MT Bold", sans-serif;
+    font: 10 50px "Arial Rounded MT Bold", sans-serif;
     position: relative;
     left: 60px;
     top: 20.14px;
@@ -1869,14 +1862,167 @@ header {
     top: 223px;
   }
 
+
   .rectangle-16 {
     background: #bd5215;
     border-radius: 8px;
-    width: 353px;
-    height: 248px;
+    width: 253px;
+    height: 148px;
     position: absolute;
-    left: 363px;
-    top: 186px;
+    left: 310px;
+    top: 196px;
     box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.25);
   }
+
+  .rectangle-16 {
+    background: #bd5215;
+    border-radius: 8px;
+    width: 253px;
+    height: 148px;
+    position: absolute;
+    left: 310px;
+    top: 196px;
+    box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  .how-we-work {
+    text-align: center;
+    font: 900 36px/138% "Poppins", sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    left: 224.93px;
+    top: 14.71px;
+  }
+
+  .how-we-work-span {
+    color: var(--gray1, #333333);
+    font: 900 36px/138% "Poppins", sans-serif;
+    text-transform: uppercase;
+  }
+
+  .how-we-work-span2 {
+    color: #bd5215;
+    font: 900 36px/138% "Poppins", sans-serif;
+    text-transform: uppercase;
+  }
+
+  .rectangle-2 {
+    background: #bd5215;
+    border-radius: 10px;
+    width: 364.9px;
+    height: 3.58px;
+    position: absolute;
+    left: 249.05px;
+    top: 78.36px;
+  }
+
+  .rectangle-5 {
+    border-radius: 30px;
+    width: 208.66px;
+    height: 153.31px;
+    position: absolute;
+    left: 49.06px;
+    top: 100.65px;
+    transition: 1s ease;
+  }
+
+  .rectangle-6 {
+    border-radius: 30px;
+    width: 208.66px;
+    height: 153.31px;
+    position: absolute;
+    left: 269.06px;
+    top: 100.65px;
+    transition: 1s ease;
+  }
+
+  .rectangle-7 {
+    border-radius: 30px;
+    width: 208.66px;
+    height: 153.31px;
+    position: absolute;
+    left: 491.21px;
+    top: 100.65px;
+    transition: 1s ease;
+  }
+
+  .rectangle-9 {
+    border-radius: 30px;
+    width: 208.66px;
+    height: 153.31px;
+    position: absolute;
+    left: 49.06px;
+    top: 300.65px;
+    transition: 1s ease;
+  }
+
+  .rectangle-10 {
+    border-radius: 30px;
+    width: 208.66px;
+    height: 153.31px;
+    position: absolute;
+    left: 270.06px;
+    top: 300.65px;
+    transition: 1s ease;
+  }
+
+  .rectangle-11 {
+    border-radius: 30px;
+    width: 208.66px;
+    height: 153.31px;
+    position: absolute;
+    left: 492.06px;
+    top: 300.65px;
+    transition: 1s ease;
+  }
+
+  .rectangle-12 {
+    visibility: hidden;
+  }
+
+  .entypo-light-down {
+    visibility: hidden;
+  }
+
+  .rectangle-17 {
+    visibility: hidden;
+  }
+
+  .entypo-light-down2 {
+    visibility: hidden;
+  }
+
+  .rectangle-172 {
+    visibility: hidden;
+  }
+
+  .entypo-light-down3 {
+    visibility: hidden;
+  }
+
+  .rectangle-12 {
+    visibility: hidden;
+  }
+
+  .entypo-light-down4 {
+    visibility: hidden;
+  }
+
+  .rectangle-12 {
+    visibility: hidden;
+  }
+
+  .entypo-light-down5 {
+    visibility: hidden;
+  }
+
+  .rectangle-8 {
+    visibility: hidden;
+  }
+
+  .rectangle-121 {
+    visibility: hidden;
+  }
+
+
 }

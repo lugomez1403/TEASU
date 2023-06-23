@@ -21,7 +21,7 @@ const orange = {
 
 const CustomButton = styled(ButtonUnstyled)`
       background-color: ${orange[500]};
-      padding: 22px 54px;
+      padding: 17px 34px;
       border-radius: 12px;
       color: white;
       transition: all 150ms ease;
@@ -293,7 +293,7 @@ class Contact extends React.Component {
                                 <TextField className="what-your-name" name="name" id="name" label="Nombre" variant="filled" maxRows={1} size="small" value={this.state.name} onChange={this.handleChangeName} required />
                                 <TextField className="e-mail-" name="mail" id="mail" label="E-mail" variant="filled" maxRows={1} size="small" value={this.state.email} onChange={this.handleChangeEmail} required />
                                 <TextField className="number-phone-" name="phone" id="subject" label="Telefono" variant="filled" maxRows={1} size="small" value={this.state.phone} onChange={this.handleChangePhone} required />
-                                <TextField className="message" name="message" id="message" label="Mensaje" variant="filled" maxRows={4} size="small" value={this.state.message} onChange={this.handleChangeMessage} required />
+                                <TextField multiline rows={3} className="message" name="message" id="message" label="Mensaje" variant="filled" maxRows={4} size="large" value={this.state.message} onChange={this.handleChangeMessage} required />
                                 <div className="group-39">
                                     {/* <ThemeProvider theme={theme}> */}
                                     {/* <Button className='submit' variant="contained" type="submit">Enviar</Button> */}

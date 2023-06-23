@@ -1,7 +1,6 @@
 import React from 'react';
 import '../App.css';
 import styled, { keyframes } from "styled-components";
-import { useMediaQuery } from 'react-responsive';
 import MediaQuery from 'react-responsive';
 
 const Home = () => {
@@ -32,8 +31,8 @@ const Home = () => {
   `;
 
   const Background = styled.span`
-    width: 100%;
-    height: 100%;
+    width: 1440px;
+    height: 733px;
     background-color: ${({ items }) => (items === "1" ? "red" : "blue")};
     background-image: url(${({ items }) =>
       items === "1"
@@ -55,7 +54,6 @@ const Home = () => {
       </MediaQuery>
 
       <div className="plugin---file-cover---1">
-
         <div className="_123">
           <div className="group-10">
           </div>

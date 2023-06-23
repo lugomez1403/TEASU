@@ -114,53 +114,53 @@ class Services extends React.Component {
 
                 <div className="rectangle-236"></div>
 
-                <div className="group-26">
-                    <svg
-                        className="entypo-light-down6"
-                        width="50"
-                        height="52"
-                        viewBox="0 0 50 52"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                    >
-                        <path
-                            d="M25.235 18.0754C24.214 18.0724 23.2025 18.2798 22.2586 18.6858C21.3148 19.0918 20.4573 19.6882 19.7354 20.4409C19.0135 21.1936 18.4416 22.0876 18.0524 23.0716C17.6632 24.0555 17.4645 25.1099 17.4677 26.1742C17.4648 27.2381 17.6638 28.2922 18.0531 29.2757C18.4425 30.2592 19.0145 31.1527 19.7364 31.9049C20.4583 32.6572 21.3157 33.2532 22.2594 33.6587C23.203 34.0642 24.2143 34.2713 25.235 34.268C26.2555 34.271 27.2665 34.0637 28.2099 33.658C29.1533 33.2523 30.0104 32.6562 30.7321 31.904C31.4537 31.1519 32.0255 30.2584 32.4147 29.2751C32.8039 28.2918 33.0028 27.2379 32.9999 26.1742C33.0034 25.11 32.805 24.0557 32.4161 23.0717C32.0272 22.0878 31.4555 21.1938 30.7338 20.4411C30.0121 19.6884 29.1547 19.0918 28.211 18.6858C27.2673 18.2798 26.2559 18.0724 25.235 18.0754V18.0754ZM25.235 31.3584C23.9153 31.3584 22.6497 30.8119 21.7165 29.8392C20.7833 28.8665 20.2591 27.5473 20.2591 26.1717C20.2591 24.7961 20.7833 23.4768 21.7165 22.5041C22.6497 21.5314 23.9153 20.985 25.235 20.985C26.5547 20.985 27.8204 21.5314 28.7535 22.5041C29.6867 23.4768 30.211 24.7961 30.211 26.1717C30.211 27.5473 29.6867 28.8665 28.7535 29.8392C27.8204 30.8119 26.5547 31.3584 25.235 31.3584ZM37.3714 13.5288C36.6141 12.7394 35.2282 12.9013 34.2815 13.8881C33.3349 14.8773 33.182 16.3144 33.9393 17.1064C34.6966 17.8983 36.0801 17.7389 37.0292 16.7496C37.9758 15.7629 38.1288 14.3182 37.3714 13.5288V13.5288ZM13.4433 35.614C12.4942 36.6007 12.3413 38.0403 13.0986 38.8297C13.8559 39.6191 15.2395 39.4622 16.1885 38.473C17.1376 37.4837 17.2905 36.0415 16.5332 35.2522C15.7759 34.4628 14.3899 34.6247 13.4433 35.614V35.614ZM13.0986 13.5288C12.3413 14.3182 12.4942 15.7629 13.4408 16.7496C14.3899 17.7389 15.7735 17.8957 16.5308 17.1064C17.2881 16.317 17.1352 14.8723 16.1861 13.8855C15.2419 12.9013 13.8559 12.7394 13.0986 13.5288ZM34.2815 38.4679C35.2282 39.4572 36.6117 39.6191 37.3714 38.8297C38.1312 38.0403 37.9758 36.5956 37.0268 35.6064C36.0777 34.6171 34.6966 34.4602 33.9368 35.2496C33.1771 36.039 33.3349 37.4812 34.2815 38.4679ZM25.235 13.5237C26.3055 13.5237 27.1768 12.3928 27.1768 10.9937C27.1744 9.59452 26.3055 8.46863 25.235 8.46863C24.1622 8.46863 23.2908 9.59452 23.2908 10.9937C23.2908 12.3928 24.1597 13.5237 25.235 13.5237ZM25.235 43.8899C26.3055 43.8899 27.1768 42.7589 27.1768 41.3598C27.1768 39.9607 26.3079 38.8348 25.2374 38.8348C24.1646 38.8348 23.2932 39.9607 23.2932 41.3598C23.2908 42.7589 24.1597 43.8899 25.235 43.8899V43.8899ZM13.0986 26.1793C13.0986 25.0635 12.0063 24.1552 10.664 24.1552C9.32173 24.1552 8.24402 25.0635 8.24402 26.1793C8.24402 27.2976 9.32173 28.2033 10.664 28.2033C12.0063 28.2033 13.0986 27.2976 13.0986 26.1793ZM42.226 26.1793C42.226 25.0635 41.1386 24.1552 39.7963 24.1552C38.454 24.1552 37.3714 25.0635 37.3714 26.1793C37.3714 27.2976 38.454 28.2033 39.7963 28.2033C41.1386 28.2033 42.226 27.2976 42.226 26.1793Z"
-                            fill="white"
-                        />
-                    </svg>
 
-                    <div className="mecanica-de-suelos2">Mecanica de suelos</div>
-                </div>
+                <svg
+                    className="entypo-light-down6"
+                    width="50"
+                    height="52"
+                    viewBox="0 0 50 52"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                >
+                    <path
+                        d="M25.235 18.0754C24.214 18.0724 23.2025 18.2798 22.2586 18.6858C21.3148 19.0918 20.4573 19.6882 19.7354 20.4409C19.0135 21.1936 18.4416 22.0876 18.0524 23.0716C17.6632 24.0555 17.4645 25.1099 17.4677 26.1742C17.4648 27.2381 17.6638 28.2922 18.0531 29.2757C18.4425 30.2592 19.0145 31.1527 19.7364 31.9049C20.4583 32.6572 21.3157 33.2532 22.2594 33.6587C23.203 34.0642 24.2143 34.2713 25.235 34.268C26.2555 34.271 27.2665 34.0637 28.2099 33.658C29.1533 33.2523 30.0104 32.6562 30.7321 31.904C31.4537 31.1519 32.0255 30.2584 32.4147 29.2751C32.8039 28.2918 33.0028 27.2379 32.9999 26.1742C33.0034 25.11 32.805 24.0557 32.4161 23.0717C32.0272 22.0878 31.4555 21.1938 30.7338 20.4411C30.0121 19.6884 29.1547 19.0918 28.211 18.6858C27.2673 18.2798 26.2559 18.0724 25.235 18.0754V18.0754ZM25.235 31.3584C23.9153 31.3584 22.6497 30.8119 21.7165 29.8392C20.7833 28.8665 20.2591 27.5473 20.2591 26.1717C20.2591 24.7961 20.7833 23.4768 21.7165 22.5041C22.6497 21.5314 23.9153 20.985 25.235 20.985C26.5547 20.985 27.8204 21.5314 28.7535 22.5041C29.6867 23.4768 30.211 24.7961 30.211 26.1717C30.211 27.5473 29.6867 28.8665 28.7535 29.8392C27.8204 30.8119 26.5547 31.3584 25.235 31.3584ZM37.3714 13.5288C36.6141 12.7394 35.2282 12.9013 34.2815 13.8881C33.3349 14.8773 33.182 16.3144 33.9393 17.1064C34.6966 17.8983 36.0801 17.7389 37.0292 16.7496C37.9758 15.7629 38.1288 14.3182 37.3714 13.5288V13.5288ZM13.4433 35.614C12.4942 36.6007 12.3413 38.0403 13.0986 38.8297C13.8559 39.6191 15.2395 39.4622 16.1885 38.473C17.1376 37.4837 17.2905 36.0415 16.5332 35.2522C15.7759 34.4628 14.3899 34.6247 13.4433 35.614V35.614ZM13.0986 13.5288C12.3413 14.3182 12.4942 15.7629 13.4408 16.7496C14.3899 17.7389 15.7735 17.8957 16.5308 17.1064C17.2881 16.317 17.1352 14.8723 16.1861 13.8855C15.2419 12.9013 13.8559 12.7394 13.0986 13.5288ZM34.2815 38.4679C35.2282 39.4572 36.6117 39.6191 37.3714 38.8297C38.1312 38.0403 37.9758 36.5956 37.0268 35.6064C36.0777 34.6171 34.6966 34.4602 33.9368 35.2496C33.1771 36.039 33.3349 37.4812 34.2815 38.4679ZM25.235 13.5237C26.3055 13.5237 27.1768 12.3928 27.1768 10.9937C27.1744 9.59452 26.3055 8.46863 25.235 8.46863C24.1622 8.46863 23.2908 9.59452 23.2908 10.9937C23.2908 12.3928 24.1597 13.5237 25.235 13.5237ZM25.235 43.8899C26.3055 43.8899 27.1768 42.7589 27.1768 41.3598C27.1768 39.9607 26.3079 38.8348 25.2374 38.8348C24.1646 38.8348 23.2932 39.9607 23.2932 41.3598C23.2908 42.7589 24.1597 43.8899 25.235 43.8899V43.8899ZM13.0986 26.1793C13.0986 25.0635 12.0063 24.1552 10.664 24.1552C9.32173 24.1552 8.24402 25.0635 8.24402 26.1793C8.24402 27.2976 9.32173 28.2033 10.664 28.2033C12.0063 28.2033 13.0986 27.2976 13.0986 26.1793ZM42.226 26.1793C42.226 25.0635 41.1386 24.1552 39.7963 24.1552C38.454 24.1552 37.3714 25.0635 37.3714 26.1793C37.3714 27.2976 38.454 28.2033 39.7963 28.2033C41.1386 28.2033 42.226 27.2976 42.226 26.1793Z"
+                        fill="white"
+                    />
+                </svg>
+
+                <div className="mecanica-de-suelos2">Mecanica de suelos</div>
+
 
                 <div className="container">
                     <div className="mec">
 
-                        <CompCard clase="entypo-light-down6" image="sunMecanic.png" title="Mecanica de suelos" modal="Se profundiza de acuerdo a las cargas que vaya a recibir el suelo dependiendo del proyecto, con estos trabajos se obtiene la estratigrafia del lugar,capacidad de carga y posibles oquedades subterráneas que existan en el suelo."></CompCard>
+                        <CompCard clase="entypo-light-down6" image="sunMecanic.png" title="Mecanica de suelos" modal="Se profundiza de acuerdo a las cargas que vaya a recibir el suelo dependiendo del proyecto, con estos trabajos se obtiene la estratigrafia del lugar,capacidad de carga y posibles oquedades subterráneas que existan en el suelo." pict="mecanica.jpeg" ></CompCard>
 
                     </div>
 
 
 
                     <div className="tf">
-                        <CompCard clase="entypo-light-down7" image="sunTF.png" title="Tierras Fisicas" modal="Se realiza el barreno a una profundidad aproximada de 9 metros para introducir cableado a tierra de una instalación eléctrica."></CompCard>
+                        <CompCard clase="entypo-light-down7" image="sunTF.png" title="Tierras Fisicas" modal="Se realiza el barreno a una profundidad aproximada de 9 metros para introducir cableado a tierra de una instalación eléctrica." pict="tierra_fisica.jpeg" ></CompCard>
                     </div>
 
 
 
                     <div className="dp">
-                        <CompCard clase="entypo-light-down8" image="sunDP.png" title="Desasolve de pozos" modal="Consiste en introducir la tubería a un pozo ya existente y por medio de presión extraer todo el material orgánico."></CompCard>
+                        <CompCard clase="entypo-light-down8" image="sunDP.png" title="Desasolve de pozos" modal="Consiste en introducir la tubería a un pozo ya existente y por medio de presión extraer todo el material orgánico." pict="desasolve.jpeg"></CompCard>
                     </div>
 
 
 
                     <div className="barr">
-                        <CompCard clase="entypo-light-down9" image="sunBarre.png" title="Barrenos" modal="Se realizan a una profundidad entre 4 y 6 metros dependiendo del volumen que se vaya a extraer para fines comerciales."></CompCard>
+                        <CompCard clase="entypo-light-down9" image="sunBarre.png" title="Barrenos" modal="Se realizan a una profundidad entre 4 y 6 metros dependiendo del volumen que se vaya a extraer para fines comerciales." pict="barrenos.jpeg"></CompCard>
                     </div>
 
 
 
                     <div className="pozos">
-                        <CompCard clase="entypo-light-down10" image="sunPozos.png" title="Pozos" modal="Se realizan con dos medidas 3'pulgadas y 4'pulgadas, después de perforar a 14 metros,que es la profundidad donde sale el agua pura, después de perforar se entuba con tubos de PVC de acuerdo al diámetro."></CompCard>
+                        <CompCard clase="entypo-light-down10" image="sunPozos.png" title="Pozos" modal="Se realizan con dos medidas 3'pulgadas y 4'pulgadas, después de perforar a 14 metros,que es la profundidad donde sale el agua pura, después de perforar se entuba con tubos de PVC de acuerdo al diámetro." pict="pozo_agua.jpeg"></CompCard>
                     </div>
                 </div>
 

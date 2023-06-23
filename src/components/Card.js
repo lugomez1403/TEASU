@@ -18,8 +18,13 @@ const theme = createTheme({
             // This is green.A700 as hex.
             main: blueGrey[800],
         },
+        neutral: {
+            main: '#bd5215',
+            contrastText: '#fff',
+        },
     },
 });
+
 
 function CompCard(props) {
     const BackdropUnstyled = React.forwardRef((props, ref) => {
@@ -89,6 +94,7 @@ function CompCard(props) {
                 <Box sx={style}>
                     <h2 className='modalTitle' id="keep-mounted-modal-title">{props.title}</h2>
                     <p className='modaldescrip' id="keep-mounted-modal-description">{props.modal}</p>
+                    <img className="imgmod" src={props.pict} />
                 </Box>
             </Modal>
             <div className="card">
@@ -101,7 +107,7 @@ function CompCard(props) {
                 <div className="face face2">
                     <div className="content">
                         <ThemeProvider theme={theme}>
-                            <Button onClick={() => setOpen(true)} variant="text" color="primary" size="large" >
+                            <Button onClick={() => setOpen(true)} variant="contained" color="neutral" size="small" >
                                 Conoce más ...</Button>
                         </ThemeProvider>
 
@@ -109,7 +115,7 @@ function CompCard(props) {
                     </div>
                 </div>
             </div>
-        </React.Fragment>
+        </React.Fragment >
     );
 }
 
