@@ -222,13 +222,11 @@ class Contact extends React.Component {
 
                 <div >
                     <div className="_1232"></div>
-
                     <div className="component-3">
                         <img className="rectangle-25" src="rectangle-25.png" />
 
                         <div className="rectangle-29"></div>
                         <div className="contact-us">Contacto</div>
-
                         <div className="test-gmail-com">teasutecnologiaaplicada@gmail.com</div>
 
                         <MailIcon

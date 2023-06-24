@@ -6,8 +6,6 @@ class Services extends React.Component {
     render() {
         return (
             <div className="component-2">
-                <div className="rectangle-14"></div>
-
                 <div className="nuestros-servicios">Nuestros servicios</div>
 
                 <div className="group-17">
@@ -90,7 +88,7 @@ class Services extends React.Component {
                 <div className="group-21">
                     <div className="pozos">Pozos</div>
 
-                    <div className="_240-">240+</div>
+
 
                     <div className="rectangle-174"></div>
 
@@ -116,7 +114,7 @@ class Services extends React.Component {
 
 
                 <svg
-                    className="entypo-light-down6"
+                    className="entypo-light-down61"
                     width="50"
                     height="52"
                     viewBox="0 0 50 52"
@@ -129,7 +127,6 @@ class Services extends React.Component {
                     />
                 </svg>
 
-                <div className="mecanica-de-suelos2">Mecanica de suelos</div>
 
 
                 <div className="container">
@@ -163,8 +160,6 @@ class Services extends React.Component {
                         <CompCard clase="entypo-light-down10" image="sunPozos.png" title="Pozos" modal="Se realizan con dos medidas 3'pulgadas y 4'pulgadas, después de perforar a 14 metros,que es la profundidad donde sale el agua pura, después de perforar se entuba con tubos de PVC de acuerdo al diámetro." pict="pozo_agua.jpeg"></CompCard>
                     </div>
                 </div>
-
-
             </div>
 
         );
