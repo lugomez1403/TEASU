@@ -13,10 +13,6 @@ export const Button = ({
     buttonStyle,
     buttonSize
 }) => {
-    console.log(buttonStyle);
-    console.log(children);
-    console.log(buttonStyle);
-    console.log(buttonSize);
     const checkButtonStyle = STYLES.includes(buttonStyle)
         ? buttonStyle
         : STYLES[0];

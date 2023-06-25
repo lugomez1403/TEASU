@@ -119,7 +119,7 @@ class Contact extends React.Component {
             return
         }
         emailjs.sendForm('service_op0hytd', 'template_fbxk7kh', e.target, 'I-Zq9xxK6ddg762ub').then((response) => {
-            console.log('SUCCESS!', response.status, response.text);
+
             this.setState({
                 open: true
             });
@@ -135,7 +135,6 @@ class Contact extends React.Component {
     validateLoginForm = () => {
 
         let errors = {};
-        console.log("1", this.state.email);
         const emailRegex = /^[-\w.%+]{1,64}@(?:[A-Z0-9-]{1,63}\.){1,125}[A-Z]{2,63}$/i;
 
         if (!this.state.name) {
@@ -143,7 +142,6 @@ class Contact extends React.Component {
             return errors;
         }
         if (!this.state.email) {
-            console.log("2")
             errors.email = "Email no puede estar vacio";
             return errors;
         } else if (!emailRegex.test(this.state.email)) {

@@ -6,7 +6,6 @@ import MenuIcon from '@mui/icons-material/Menu';
 
 function Navbar() {
     const [button, setButton] = useState(true);
-    console.log("button", button);
 
     const showButton = () => {
         if (window.innerWidth <= 960) {
