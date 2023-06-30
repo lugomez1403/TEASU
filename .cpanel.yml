@@ -1,7 +1,6 @@
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/teasucom/nodejsapp
-    - /bin/mkdir $DEPLOYPATH
+    - export DEPLOYPATH=/home/teasucom/public_html
     - /bin/cp src/App.js $DEPLOYPATH
     - /bin/cp package.json $DEPLOYPATH
     - /bin/cp script.sh $DEPLOYPATH
