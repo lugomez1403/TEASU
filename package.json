@@ -1,5 +1,6 @@
 {
   "name": "app-test",
+  "homepage": "http://www.teasu.com.mx",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
