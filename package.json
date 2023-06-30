@@ -24,7 +24,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "dev": "nodemon react-scripts dev",
+    "dev": "nodemon --max_old_space_size=460 react-scripts dev",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
