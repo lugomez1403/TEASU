@@ -1330,36 +1330,6 @@ header {
   top: 272px;
 }
 
-/* .card {
-  border-radius: 8px;
-  border-width: 2px;
-  align-items: center;
-  border-style: solid;
-  border-image: var(--gr1,
-      linear-gradient(89.65deg,
-        rgba(255, 103, 83, 1) 0%,
-        rgba(255, 143, 80, 1) 100%));
-  border-image-slice: 1;
-  width: 195.12px;
-  height: 200.46px;
-  position: absolute;
-  left: 93.42px;
-  top: 432.06px;
-}
-
-.card:hover {
-  border-radius: 8px;
-  background-color: #f0525f;
-  align-items: flex-start;
-  font: 400 14px/18px "Arial Rounded MT Bold", sans-serif;
-  position: absolute;
-  left: 93.42px;
-  top: 432.06px;
-  width: 195.12px;
-  height: 250.46px;
-  box-shadow: var(--_1-box-shadow, 0px 6px 20px 0px rgba(0, 255, 224, 0.2));
-} */
-
 .container {
   align-items: center;
   border-image-slice: 1;
@@ -1776,197 +1746,6 @@ header {
   position: absolute;
   left: 927.08px;
   top: 327.28px;
-}
-
-@media screen and (max-width: 320px) {
-  .plugin---file-cover---1 {
-    /* background: #bd5215; */
-    padding: 82px 80px 82px 80px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: absolute;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    overflow: hidden;
-    width: 100%;
-    top: 1px;
-  }
-
-  ._123 {
-    top: 0px;
-    width: 200px;
-    height: calc(400px);
-  }
-
-  .expertos-en-mec-nica-de-suelos {
-    color: #000000;
-    text-align: center;
-    font: 10 50px "Arial Rounded MT Bold", sans-serif;
-    position: relative;
-    left: 60px;
-    top: 20.14px;
-    width: 43px;
-    height: 78.86px;
-  }
-
-  .image-1 {
-    border-radius: 42px;
-    width: 160px;
-    height: 107px;
-    position: absolute;
-    left: 20px;
-    top: 203px;
-  }
-
-  ._1232 {
-    top: 0px;
-    width: calc(200px);
-    height: calc(400px);
-  }
-
-  .contacto {
-    color: #ffffff;
-    text-align: left;
-    font: 400 40px "Perpetua", sans-serif;
-    position: absolute;
-    left: 94px;
-    top: 0px;
-    width: 545px;
-    height: 83px;
-  }
-
-  .what-your-name {
-    color: var(--gray3, #828282);
-    text-align: left;
-    font: 400 14px/138.5% "Poppins", sans-serif;
-    position: absolute;
-    left: 75.08px;
-    top: 90.56px;
-    width: 80.16px;
-    height: 18.85px;
-  }
-
-  .e-mail- {
-    text-align: left;
-    font: 400 14px/138.5% "Poppins", sans-serif;
-    position: absolute;
-    left: 75.08px;
-    top: 138.09px;
-    width: 49.48px;
-    height: 18.85px;
-  }
-
-  .e-mail--span {
-    color: var(--gray3, #828282);
-    font: 400 14px/138.5% "Poppins", sans-serif;
-  }
-
-  .e-mail--span2 {
-    color: #3ddabe;
-    font: 400 14px/138.5% "Poppins", sans-serif;
-  }
-
-  .number-phone- {
-    text-align: left;
-    font: 400 14px/138.5% "Poppins", sans-serif;
-    position: absolute;
-    left: 75.08px;
-    top: 175.63px;
-    width: 105.49px;
-    height: 18.85px;
-  }
-
-  .number-phone--span {
-    color: var(--gray3, #828282);
-    font: 400 14px/138.5% "Poppins", sans-serif;
-  }
-
-  .number-phone--span2 {
-    color: #3ddabe;
-    font: 400 14px/138.5% "Poppins", sans-serif;
-  }
-
-  .message {
-    color: var(--gray3, #828282);
-    text-align: left;
-    font: 400 14px/138.5% "Poppins", sans-serif;
-    position: absolute;
-    left: 75.08px;
-    top: 223.16px;
-    width: 58.81px;
-    height: 18.85px;
-  }
-
-  .submit {
-    color: #ffffff;
-    text-align: left;
-    font: 600 14px/138.5% "Poppins", sans-serif;
-    text-transform: uppercase;
-    position: absolute;
-    left: 103.75px;
-    top: 430.56px;
-  }
-
-  .thank-you {
-    visibility: hidden;
-  }
-
-  .test-gmail-com {
-    color: var(--gray2, #4f4f4f);
-    text-align: left;
-    font: 500 14px "TT Hoves", sans-serif;
-    position: absolute;
-    left: 439.17px;
-    top: 120.2px;
-    width: 217.52px;
-    height: 17.91px;
-  }
-
-  .ic-round-mail {
-    position: absolute;
-    left: 398.1px;
-    top: 118.51px;
-    overflow: visible;
-  }
-
-  .ic-round-call {
-    position: absolute;
-    left: 398.1px;
-    top: 169.34px;
-    overflow: visible;
-  }
-
-  .ic-round-call2 {
-    position: absolute;
-    left: 398.1px;
-    top: 230.34px;
-    overflow: visible;
-  }
-
-  .tel {
-    color: #4f4f4f;
-    text-align: left;
-    font: 500 14px "TT Hoves", sans-serif;
-    position: absolute;
-    left: 439.17px;
-    top: 170px;
-    width: 217.52px;
-    height: 17.01px;
-  }
-
-  .tel2 {
-    color: #4f4f4f;
-    text-align: left;
-    font: 500 14px "TT Hoves", sans-serif;
-    position: absolute;
-    left: 439.17px;
-    top: 231px;
-    width: 217.52px;
-    height: 17.01px;
-  }
-
 }
 
 @media screen and (max-width: 768px) {
@@ -2508,4 +2287,466 @@ header {
     width: 768px;
     height: 693px;
   }
+}
+
+@media screen and (max-width: 320px) {
+  .plugin---file-cover---1 {
+    /* background: #bd5215; */
+    padding: 82px 80px 82px 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+    width: 100%;
+    top: 1px;
+  }
+
+  ._123 {
+    top: 0px;
+    width: calc(200px);
+    height: calc(400px);
+  }
+
+  .expertos-en-mec-nica-de-suelos {
+    color: #000000;
+    text-align: center;
+    font: 10 15px "Arial Rounded MT Bold", sans-serif;
+    position: relative;
+    left: 60px;
+    top: 20.14px;
+    width: 43px;
+    height: 78.86px;
+  }
+
+  .image-1 {
+    border-radius: 42px;
+    width: 160px;
+    height: 107px;
+    position: absolute;
+    left: 20px;
+    top: 243px;
+  }
+
+  .whatsapp-image-2023-02-18-at-11-35-1 {
+    width: 140px;
+    height: 87px;
+    position: absolute;
+    left: 28px;
+    top: 143px;
+  }
+
+  .rectangle-5 {
+    border-radius: 30px;
+    width: 100.66px;
+    height: 100.31px;
+    position: absolute;
+    left: 49.06px;
+    top: 100.65px;
+    transition: 1s ease;
+  }
+
+  .rectangle-6 {
+    border-radius: 30px;
+    width: 100.66px;
+    height: 100.31px;
+    position: absolute;
+    left: 169.06px;
+    top: 100.65px;
+    transition: 1s ease;
+  }
+
+  .rectangle-7 {
+    border-radius: 30px;
+    width: 100.66px;
+    height: 100.31px;
+    position: absolute;
+    left: 49.06px;
+    top: 220.65px;
+    transition: 1s ease;
+  }
+
+  .rectangle-9 {
+    border-radius: 30px;
+    width: 100.66px;
+    height: 100.31px;
+    position: absolute;
+    left: 169.06px;
+    top: 220.65px;
+    transition: 1s ease;
+  }
+
+  .rectangle-10 {
+    border-radius: 30px;
+    width: 100.66px;
+    height: 100.31px;
+    position: absolute;
+    left: 49.06px;
+    top: 330.65px;
+    transition: 1s ease;
+  }
+
+  .rectangle-11 {
+    border-radius: 30px;
+    width: 100.66px;
+    height: 100.31px;
+    position: absolute;
+    left: 169.06px;
+    top: 330.65px;
+    transition: 1s ease;
+  }
+
+  .how-we-work {
+    text-align: center;
+    font: 900 16px/18% "Poppins", sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    left: 64.93px;
+    top: 64.71px;
+  }
+
+  .how-we-work-span {
+    color: var(--gray1, #333333);
+    font: 900 16px/138% "Poppins", sans-serif;
+    text-transform: uppercase;
+  }
+
+  .how-we-work-span2 {
+    color: #bd5215;
+    font: 900 16px/138% "Poppins", sans-serif;
+    text-transform: uppercase;
+  }
+
+  .rectangle-2 {
+    background: #bd5215;
+    border-radius: 10px;
+    width: 114.9px;
+    height: 3.58px;
+    position: absolute;
+    left: 105.05px;
+    top: 91.36px;
+  }
+
+  .component-2 {
+    padding: 82px 80px 82px 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+    width: 320px;
+    height: 532px;
+    top: 1px;
+  }
+
+  .rectangle-4 {
+    background: #ffffff;
+    width: 320px;
+    height: 532px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    box-shadow: 0px 0px 40px -6px rgba(29, 117, 101, 0.2);
+  }
+
+  .container {
+    align-items: center;
+    border-image-slice: 1;
+    width: 0px;
+    height: 0px;
+    border-radius: 8px;
+    border-width: 2px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .container .mec {
+    position: absolute;
+    left: 93.42px;
+    top: 162.06px;
+  }
+
+  .container .tf {
+    position: absolute;
+    left: 330.1px;
+    top: 162.06px;
+  }
+
+  .container .dp {
+    position: absolute;
+    left: 533.42px;
+    top: 162.06px;
+  }
+
+  .container .barr {
+    position: absolute;
+    left: 760.1px;
+    top: 162.06px;
+  }
+
+  .container .pozos {
+    position: absolute;
+    left: 973.42px;
+    top: 162.06px;
+  }
+
+  .container .card {
+    position: absolute;
+    cursor: pointer;
+    border-radius: 8px;
+    border-width: 2px;
+    width: 195.12px;
+    height: 250.46px;
+  }
+
+  .container .card .face {
+    width: 195.12px;
+    height: 250.46px;
+    transition: 0.5s;
+    left: 0px;
+    top: 0px;
+    border-radius: 8px;
+    border-width: 2px;
+  }
+
+  .container .card .face.face1 {
+    border-color: rgb(207, 94, 18);
+    border-style: solid;
+    border-radius: 8px;
+    border-width: 2px;
+    position: relative;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform: translateY(100px);
+    width: 95.12px;
+    height: 50.46px;
+    left: 0px;
+  }
+
+  .container .card:hover .face.face1 {
+    background: linear-gradient(89.65deg, rgba(255, 103, 83, 1) 0%, rgba(255, 143, 80, 1) 100%);
+    transform: translateY(0);
+    left: 0px;
+    width: 195.12px;
+    height: 250.46px;
+  }
+
+  .container .card .face.face1 .content {
+    align-items: center;
+    transition: 0.5s;
+  }
+
+  .container .card:hover .face.face1 .content {
+    opacity: 1;
+  }
+
+  .container .card .face.face1 .content img {
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    overflow: visible;
+    position: relative;
+    align-content: center;
+  }
+
+  .container .card .face.face1 .content h3 {
+    margin: 10px 0 0;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5em;
+    left: 0px;
+  }
+
+  .container .card .face.face2 {
+    position: relative;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+    transform: translateY(-100px);
+    left: 0px;
+    top: 0px;
+    width: 125.12px;
+    height: 40.46px;
+  }
+
+  .container .card:hover .face.face2 {
+    transform: translateY(0);
+  }
+
+  .container .card .face.face2 .content p {
+    margin: 0;
+    padding: 0;
+  }
+
+  .container .card .face.face2 .content a {
+    margin: 15px 0 0;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 200;
+    color: #333;
+    padding: 5px;
+    border: 1px solid #333;
+  }
+
+  ._1232 {
+    top: 0px;
+    width: calc(200px);
+    height: calc(400px);
+  }
+
+  .contacto {
+    color: #ffffff;
+    text-align: left;
+    font: 400 40px "Perpetua", sans-serif;
+    position: absolute;
+    left: 94px;
+    top: 0px;
+    width: 545px;
+    height: 83px;
+  }
+
+  .what-your-name {
+    color: var(--gray3, #828282);
+    text-align: left;
+    font: 400 14px/138.5% "Poppins", sans-serif;
+    position: absolute;
+    left: 75.08px;
+    top: 90.56px;
+    width: 80.16px;
+    height: 18.85px;
+  }
+
+  .e-mail- {
+    text-align: left;
+    font: 400 14px/138.5% "Poppins", sans-serif;
+    position: absolute;
+    left: 75.08px;
+    top: 138.09px;
+    width: 49.48px;
+    height: 18.85px;
+  }
+
+  .e-mail--span {
+    color: var(--gray3, #828282);
+    font: 400 14px/138.5% "Poppins", sans-serif;
+  }
+
+  .e-mail--span2 {
+    color: #3ddabe;
+    font: 400 14px/138.5% "Poppins", sans-serif;
+  }
+
+  .number-phone- {
+    text-align: left;
+    font: 400 14px/138.5% "Poppins", sans-serif;
+    position: absolute;
+    left: 75.08px;
+    top: 175.63px;
+    width: 105.49px;
+    height: 18.85px;
+  }
+
+  .number-phone--span {
+    color: var(--gray3, #828282);
+    font: 400 14px/138.5% "Poppins", sans-serif;
+  }
+
+  .number-phone--span2 {
+    color: #3ddabe;
+    font: 400 14px/138.5% "Poppins", sans-serif;
+  }
+
+  .message {
+    color: var(--gray3, #828282);
+    text-align: left;
+    font: 400 14px/138.5% "Poppins", sans-serif;
+    position: absolute;
+    left: 75.08px;
+    top: 223.16px;
+    width: 58.81px;
+    height: 18.85px;
+  }
+
+  .submit {
+    color: #ffffff;
+    text-align: left;
+    font: 600 14px/138.5% "Poppins", sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    left: 103.75px;
+    top: 430.56px;
+  }
+
+  .thank-you {
+    visibility: hidden;
+  }
+
+  .test-gmail-com {
+    color: var(--gray2, #4f4f4f);
+    text-align: left;
+    font: 500 14px "TT Hoves", sans-serif;
+    position: absolute;
+    left: 439.17px;
+    top: 120.2px;
+    width: 217.52px;
+    height: 17.91px;
+  }
+
+  .ic-round-mail {
+    position: absolute;
+    left: 398.1px;
+    top: 118.51px;
+    overflow: visible;
+  }
+
+  .ic-round-call {
+    position: absolute;
+    left: 398.1px;
+    top: 169.34px;
+    overflow: visible;
+  }
+
+  .ic-round-call2 {
+    position: absolute;
+    left: 398.1px;
+    top: 230.34px;
+    overflow: visible;
+  }
+
+  .tel {
+    color: #4f4f4f;
+    text-align: left;
+    font: 500 14px "TT Hoves", sans-serif;
+    position: absolute;
+    left: 439.17px;
+    top: 170px;
+    width: 217.52px;
+    height: 17.01px;
+  }
+
+  .tel2 {
+    color: #4f4f4f;
+    text-align: left;
+    font: 500 14px "TT Hoves", sans-serif;
+    position: absolute;
+    left: 439.17px;
+    top: 231px;
+    width: 217.52px;
+    height: 17.01px;
+  }
+
 }
