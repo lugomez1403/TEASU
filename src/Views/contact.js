@@ -258,7 +258,6 @@ class Contact extends React.Component {
                         </div>
 
 
-                        <div className="rectangle-30"></div>
 
                         <div className="group-36">
                             {/* <FormControl

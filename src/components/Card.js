@@ -95,6 +95,10 @@ function CompCard(props) {
                     <h2 className='modalTitle' id="keep-mounted-modal-title">{props.title}</h2>
                     <p className='modaldescrip' id="keep-mounted-modal-description">{props.modal}</p>
                     <img className="imgmod" src={props.pict} />
+                    <ThemeProvider theme={theme}>
+                        <Button onClick={handleClose} variant="contained" color="neutral" size="small" >
+                            Cerrar</Button>
+                    </ThemeProvider>
                 </Box>
             </Modal>
             <div className="card">

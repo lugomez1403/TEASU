@@ -261,6 +261,14 @@ header {
   top: 0px;
 }
 
+.group-36 {
+  width: 148.74px;
+  height: 57.61px;
+  position: static;
+  left: 575.08px;
+  top: 200.56px;
+}
+
 .group-10 {
   width: 528px;
   height: 19.06px;
@@ -591,13 +599,6 @@ header {
   height: 18.85px;
 }
 
-.group-36 {
-  width: 148.74px;
-  height: 57.61px;
-  position: static;
-  left: 575.08px;
-  top: 200.56px;
-}
 
 .rectangle-232 {
   background: #ffffff;
@@ -2441,7 +2442,7 @@ header {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     overflow: hidden;
     width: 320px;
-    height: 532px;
+    height: 732px;
     top: 1px;
   }
 
@@ -2468,32 +2469,32 @@ header {
 
   .container .mec {
     position: absolute;
-    left: 93.42px;
-    top: 162.06px;
+    left: 33.42px;
+    top: 62.06px;
   }
 
   .container .tf {
     position: absolute;
-    left: 330.1px;
-    top: 162.06px;
+    left: 203.1px;
+    top: 62.06px;
   }
 
   .container .dp {
     position: absolute;
-    left: 533.42px;
-    top: 162.06px;
+    left: 33.42px;
+    top: 262.06px;
   }
 
   .container .barr {
     position: absolute;
-    left: 760.1px;
-    top: 162.06px;
+    left: 203.1px;
+    top: 262.06px;
   }
 
   .container .pozos {
     position: absolute;
-    left: 973.42px;
-    top: 162.06px;
+    left: 120.42px;
+    top: 450.06px;
   }
 
   .container .card {
@@ -2501,8 +2502,8 @@ header {
     cursor: pointer;
     border-radius: 8px;
     border-width: 2px;
-    width: 195.12px;
-    height: 250.46px;
+    width: 105.12px;
+    height: 140.46px;
   }
 
   .container .card .face {
@@ -2526,9 +2527,9 @@ header {
     justify-content: center;
     align-items: center;
     z-index: 1;
-    transform: translateY(100px);
-    width: 95.12px;
-    height: 50.46px;
+    transform: translateY(50px);
+    width: 105.12px;
+    height: 140.46px;
     left: 0px;
   }
 
@@ -2536,8 +2537,8 @@ header {
     background: linear-gradient(89.65deg, rgba(255, 103, 83, 1) 0%, rgba(255, 143, 80, 1) 100%);
     transform: translateY(0);
     left: 0px;
-    width: 195.12px;
-    height: 250.46px;
+    width: 105.12px;
+    height: 140.46px;
   }
 
   .container .card .face.face1 .content {
@@ -2551,15 +2552,15 @@ header {
 
   .container .card .face.face1 .content img {
     align-items: center;
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
     overflow: visible;
     position: relative;
     align-content: center;
   }
 
-  .container .card .face.face1 .content h3 {
-    margin: 10px 0 0;
+  .container .card .face.face1 .content h6 {
+    margin: 10px 10px 0;
     padding: 0;
     color: #fff;
     text-align: center;
@@ -2576,11 +2577,11 @@ header {
     padding: 20px;
     box-sizing: border-box;
     box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
-    transform: translateY(-100px);
+    transform: translateY(-60px);
     left: 0px;
-    top: 0px;
-    width: 125.12px;
-    height: 40.46px;
+    top: 28px;
+    width: 105.12px;
+    height: 60.46px;
   }
 
   .container .card:hover .face.face2 {
@@ -2602,10 +2603,136 @@ header {
     border: 1px solid #333;
   }
 
+  .entypo-light-down6 {
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    overflow: visible;
+    left: 25px;
+    top: 20px;
+  }
+
+  .entypo-light-down7 {
+    align-items: center;
+    width: 10px;
+    height: 10px;
+    overflow: visible;
+    left: 25px;
+    top: 20px;
+  }
+
+  .entypo-light-down8 {
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    overflow: visible;
+    left: 25px;
+    top: 20px;
+  }
+
+  .entypo-light-down9 {
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    overflow: visible;
+    left: 25px;
+    top: 10px;
+  }
+
+  .entypo-light-down10 {
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    overflow: visible;
+    left: 8px;
+    top: 0px;
+  }
+
+  .mecanica-de-suelos {
+    color: var(--gr1,
+        linear-gradient(89.65deg,
+          rgba(255, 103, 83, 1) 0%,
+          rgba(255, 143, 80, 1) 100%));
+    text-align: left;
+    font: 400 14px/14px "Arial Rounded MT Bold", sans-serif;
+    position: absolute;
+    left: 50.18px;
+    top: 78.82px;
+    width: 94.53px;
+    height: 46.71px;
+  }
+
+  .tierras-fisicas {
+    color: var(--gr1,
+        linear-gradient(89.65deg,
+          rgba(255, 103, 83, 1) 0%,
+          rgba(255, 143, 80, 1) 100%));
+    text-align: left;
+    font: 400 14px/14px "Arial Rounded MT Bold", sans-serif;
+    position: absolute;
+    left: 210.17px;
+    top: 79.8px;
+    width: 124.53px;
+    height: 46.71px;
+  }
+
+  .desasolve-de-pozos {
+    color: var(--gr1,
+        linear-gradient(89.65deg,
+          rgba(255, 103, 83, 1) 0%,
+          rgba(255, 143, 80, 1) 100%));
+    text-align: left;
+    font: 400 14px/14px "Arial Rounded MT Bold", sans-serif;
+    position: absolute;
+    left: 50.18px;
+    top: 265.71px;
+    width: 94.53px;
+    height: 46.71px;
+  }
+
+  .barrenos {
+    color: var(--gr1,
+        linear-gradient(89.65deg,
+          rgba(255, 103, 83, 1) 0%,
+          rgba(255, 143, 80, 1) 100%));
+    text-align: left;
+    font: 400 16px/24px "Arial Rounded MT Bold", sans-serif;
+    position: absolute;
+    left: 210.99px;
+    top: 265.71px;
+    width: 94.53px;
+    height: 23.35px;
+  }
+
+  .pozos {
+    color: var(--gr1,
+        linear-gradient(89.65deg,
+          rgba(255, 103, 83, 1) 0%,
+          rgba(255, 143, 80, 1) 100%));
+    text-align: left;
+    font: 400 16px/24px "Arial Rounded MT Bold", sans-serif;
+    position: absolute;
+    left: 150.11px;
+    top: 460.12px;
+    width: 94.53px;
+    height: 23.35px;
+  }
+
+
   ._1232 {
     top: 0px;
-    width: calc(200px);
-    height: calc(400px);
+    width: 320px;
+    height: 840px;
+  }
+
+  .rectangle-29 {
+    background: var(--gray6, #f2f2f2);
+    border-radius: 30px;
+    width: 302.32px;
+    height: 502px;
+    position: absolute;
+    left: 8px;
+    top: 26.84px;
   }
 
   .contacto {
@@ -2615,28 +2742,50 @@ header {
     position: absolute;
     left: 94px;
     top: 0px;
-    width: 545px;
+    width: 145px;
     height: 83px;
+  }
+
+  .contact-us {
+    color: var(--gray1, #333333);
+    text-align: center;
+    font: 900 16px/138% "Poppins", sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    left: 58.28px;
+    top: 42.98px;
+    width: 100.19px;
+    height: 18.35px;
+  }
+
+  .rectangle-30 {
+    background: #bd5215;
+    border-radius: 10px;
+    width: 65.35px;
+    height: 4.48px;
+    position: absolute;
+    left: 58.28px;
+    top: 65.07px;
   }
 
   .what-your-name {
     color: var(--gray3, #828282);
     text-align: left;
-    font: 400 14px/138.5% "Poppins", sans-serif;
-    position: absolute;
-    left: 75.08px;
+    font: 400 14px/18.5% "Poppins", sans-serif;
+    position: relative;
+    left: 25px;
     top: 90.56px;
-    width: 80.16px;
-    height: 18.85px;
+    width: 205px;
+    height: 10.85px;
   }
 
   .e-mail- {
     text-align: left;
     font: 400 14px/138.5% "Poppins", sans-serif;
     position: absolute;
-    left: 75.08px;
+    left: 25px;
     top: 138.09px;
-    width: 49.48px;
+    width: 205px;
     height: 18.85px;
   }
 
@@ -2653,10 +2802,10 @@ header {
   .number-phone- {
     text-align: left;
     font: 400 14px/138.5% "Poppins", sans-serif;
-    position: absolute;
-    left: 75.08px;
+    position: relative;
+    left: 25px;
     top: 175.63px;
-    width: 105.49px;
+    width: 85px;
     height: 18.85px;
   }
 
@@ -2673,18 +2822,16 @@ header {
   .message {
     color: var(--gray3, #828282);
     text-align: left;
-    font: 400 14px/138.5% "Poppins", sans-serif;
+    font: 400 14px/18.5% "Poppins", sans-serif;
     position: absolute;
-    left: 75.08px;
+    left: 25px;
     top: 223.16px;
-    width: 58.81px;
-    height: 18.85px;
   }
 
   .submit {
     color: #ffffff;
     text-align: left;
-    font: 600 14px/138.5% "Poppins", sans-serif;
+    font: 600 14px/18.5% "Poppins", sans-serif;
     text-transform: uppercase;
     position: absolute;
     left: 103.75px;
@@ -2692,7 +2839,14 @@ header {
   }
 
   .thank-you {
-    visibility: hidden;
+    color: #2a796b;
+    text-align: left;
+    font: 400 10px/138.5% "Poppins", sans-serif;
+    position: absolute;
+    left: 85.85px;
+    top: 490px;
+    width: 122.17px;
+    height: 21.49px;
   }
 
   .test-gmail-com {
@@ -2700,30 +2854,30 @@ header {
     text-align: left;
     font: 500 14px "TT Hoves", sans-serif;
     position: absolute;
-    left: 439.17px;
-    top: 120.2px;
+    left: 69.17px;
+    top: 600.2px;
     width: 217.52px;
     height: 17.91px;
   }
 
   .ic-round-mail {
     position: absolute;
-    left: 398.1px;
-    top: 118.51px;
+    left: 45.17px;
+    top: 600px;
     overflow: visible;
   }
 
   .ic-round-call {
     position: absolute;
-    left: 398.1px;
-    top: 169.34px;
+    left: 45.17px;
+    top: 630px;
     overflow: visible;
   }
 
   .ic-round-call2 {
     position: absolute;
-    left: 398.1px;
-    top: 230.34px;
+    left: 45.17px;
+    top: 660px;
     overflow: visible;
   }
 
@@ -2732,8 +2886,8 @@ header {
     text-align: left;
     font: 500 14px "TT Hoves", sans-serif;
     position: absolute;
-    left: 439.17px;
-    top: 170px;
+    left: 69.17px;
+    top: 630px;
     width: 217.52px;
     height: 17.01px;
   }
@@ -2743,10 +2897,36 @@ header {
     text-align: left;
     font: 500 14px "TT Hoves", sans-serif;
     position: absolute;
-    left: 439.17px;
-    top: 231px;
+    left: 69.17px;
+    top: 660px;
     width: 217.52px;
     height: 17.01px;
+  }
+
+  .component-3 {
+    width: 320px;
+    height: 532px;
+    position: absolute;
+
+  }
+
+  .rectangle-25 {
+    background: linear-gradient(to left,
+        rgba(7, 19, 65, 0.4),
+        rgba(7, 19, 65, 0.4));
+    width: 320px;
+    height: 426.33px;
+    position: absolute;
+    left: 0px;
+    top: 139.67px;
+  }
+
+  .group-36 {
+    width: 148.74px;
+    height: 57.61px;
+    position: static;
+    left: 75.08px;
+    top: 200.56px;
   }
 
 }
